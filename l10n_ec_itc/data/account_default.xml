@@ -9,5 +9,24 @@
 		  <field name="income_currency_exchange_account_id" ref="520402"/>
 		  <field name="expense_currency_exchange_account_id" ref="520402"/>
 		</record>    
+
+		<!--
+			Propiedades de cuentas por cobrar y por pagar
+		-->
+        <record model="ir.property" id="property_account_receivable">
+            <field name="name">property_account_receivable_id</field>
+            <field name="type">many2one</field>
+	    <field name="fields_id" model="ir.model.fields"
+		   search="[('model', '=', 'res.partner'), ('name', '=', 'property_account_receivable_id')]"/>
+	    <field name="value" ref="101020601"/>
+        </record>
+
+        <record model="ir.property" id="property_account_payable">
+            <field name="name">property_account_payable_id</field>
+            <field name="type">many2one</field>
+	    <field name="fields_id" model="ir.model.fields"
+		   search="[('model', '=', 'res.partner'), ('name', '=', 'property_account_payable_id')]"/>
+	    <field name="value" ref="2010301"/>
+        </record>
 		
 </odoo>
