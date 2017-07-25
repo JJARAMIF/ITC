@@ -14,7 +14,7 @@
 		  <field name="transfer_account_id" ref="transfer_account_id"/>
 		  <field name="bank_account_code_prefix">10.01.02</field>
 		  <field name="cash_account_code_prefix">10.01.01</field>
-		  <field name="code_digits" eval="6"/>
+		  <field name="code_digits" eval="8"/>
 		  <field name="spoken_languages" eval="'es_EC'"/>
 		</record>    
 
