@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-# Copyright (C) 2010-2012 Cristian Salamea Gnuthink Software Labs Cia. Ltda
+# Copyright (C) 2017 ITC Store
 
 {
     'name': 'Ecuador - Accounting',
@@ -13,7 +13,7 @@ This is the base module to manage the accounting chart for Ecuador in Odoo.
 
 Accounting chart and localization for Ecuador.
     """,
-    'author': 'Gnuthink Co.Ltd.',
+    'author': 'ITC Store',
     'depends': [
         'account',
         'base_vat',
