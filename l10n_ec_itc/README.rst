@@ -14,6 +14,9 @@ Tested on version / Probado en la versión
 =========================================
 10.0-20161103
 
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
 Installation / Instalación
 ==========================
 
@@ -73,9 +76,6 @@ If you spotted it first, help us smashing it by providing a detailed and welcome
 Credits
 =======
 
-Images
-------
-
 * ITC Tecnologia
 
 Contributors
@@ -94,4 +94,4 @@ El manetenimiento de este módulo es responsabilidad de ITC Tecnologia.
 
 ITC, [Innovación, Tecnología, Confianza](http://www.itc.ec/), es una empresa dedicada 
 al comercio de Tecnologia y desarrollo de Soluciones Integrales.
-
+    :alt: License: AGPL-3
