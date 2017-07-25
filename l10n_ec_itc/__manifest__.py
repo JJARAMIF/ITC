@@ -5,7 +5,7 @@
 
 {
     'name': 'ITC - Accounting',
-    'version': '1.1',
+    'version': '1.2',
     'category': 'Localization',
     'description': """
 Modulo Base Odoo que inicializa el Plan de Cuentas para Ecuador.
