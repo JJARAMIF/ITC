@@ -8,10 +8,10 @@
     'version': '1.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Ecuador in Odoo.
+Modulo Base Odoo que inicializa el Plan de Cuentas para Ecuador.
 ==============================================================================
 
-Accounting chart and localization for Ecuador.
+Plan de Cuentas y Localizacion Ecuador.
     """,
     'author': 'ITC Store',
     'depends': [
@@ -22,8 +22,8 @@ Accounting chart and localization for Ecuador.
     'data': [
         'data/l10n_ec_chart_data.xml',
 		'data/account.account.template.csv',
-        'data/account_chart_template_data.yml',
 		'data/account_tax_data.xml',
 		'data/account_default.xml',
-    ],
+        'data/account_chart_template_data.yml',
+		],
 }
