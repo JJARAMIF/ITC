@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record model="account.account.template" id="transfer_account_id">
-     <field name="name">Cuenta de transferencia</field>
-     <field name="code">10.01.03</field>
-     <field name="user_type_id" ref="account.data_account_type_current_assets" />
-     <field name="reconcile" eval="True" />
-    </record>
+    
+		<record model="account.account.template" id="transfer_account_id">
+		 <field name="name">Cuenta de transferencia</field>
+		 <field name="code">10.01.03</field>
+		 <field name="user_type_id" ref="account.data_account_type_current_assets" />
+		 <field name="reconcile" eval="True" />
+		</record>
 
-    <record id="ec_chart_template" model="account.chart.template">
-      <field name="name">ITC - Plan de Cuentas NIFF Ecuador</field>
-      <field name="currency_id" ref="base.USD"/>
-      <field name="transfer_account_id" ref="transfer_account_id"/>
-      <field name="bank_account_code_prefix">10.01.02</field>
-      <field name="cash_account_code_prefix">10.01.01</field>
-      <field name="code_digits" eval="6"/>
-    </record>    
+		<record id="ec_chart_template" model="account.chart.template">
+		  <field name="name">ITC - Plan de Cuentas NIFF Ecuador</field>
+		  <field name="currency_id" ref="base.USD"/>
+		  <field name="transfer_account_id" ref="transfer_account_id"/>
+		  <field name="bank_account_code_prefix">10.01.02</field>
+		  <field name="cash_account_code_prefix">10.01.01</field>
+		  <field name="code_digits" eval="6"/>
+		  <field name="spoken_languages" eval="'es_EC'"/>
+		</record>    
 
-    <record model="account.account.template" id="transfer_account_id">
-      <field name="chart_template_id" ref="ec_chart_template"/>
-    </record>
+		<record model="account.account.template" id="transfer_account_id">
+		  <field name="chart_template_id" ref="ec_chart_template"/>
+		</record>
 
-    <record id="ec_chart_template" model="account.chart.template">
-      <field name="property_account_expense_categ_id" ref="1010206"/>
-      <field name="property_account_income_categ_id" ref="1010206"/>  
-      <field name="property_account_receivable_id" ref="1010206"/>
-      <field name="property_account_payable_id" ref="1010206"/>
-      <field name="income_currency_exchange_account_id" ref="1010206"/>
-      <field name="expense_currency_exchange_account_id" ref="1010206"/>
-    </record>    
+		<!-- Cuentas por Defecto 
+		<record id="ec_chart_template" model="account.chart.template">
+		  <field name="property_account_expense_categ_id" ref="1010206"/>
+		  <field name="property_account_income_categ_id" ref="1010206"/>  
+		  <field name="property_account_receivable_id" ref="1010206"/>
+		  <field name="property_account_payable_id" ref="1010206"/>
+		  <field name="income_currency_exchange_account_id" ref="1010206"/>
+		  <field name="expense_currency_exchange_account_id" ref="1010206"/>
+		</record>    
+		-->
+	
 </odoo>
