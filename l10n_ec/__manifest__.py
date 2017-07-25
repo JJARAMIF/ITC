@@ -4,7 +4,7 @@
 # Copyright (C) 2017 ITC Store
 
 {
-    'name': 'Ecuador - Accounting',
+    'name': 'ITC - Accounting',
     'version': '1.1',
     'category': 'Localization',
     'description': """
