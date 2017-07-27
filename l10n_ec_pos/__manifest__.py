@@ -5,7 +5,7 @@
     Cambios en el POS para Ecuador
     """,
     'description': """
-        Agregar campos del partner requeridos en el POS
+        Agregar campos del contacto requeridos en el POS
     """,
     'author': "ITC Tecnologia",
     'website': "http://www.itc.ec",
