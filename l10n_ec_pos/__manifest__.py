@@ -7,13 +7,12 @@
     'description': """
         Agregar campos del partner requeridos en el POS
     """,
-    'author': "Cristian Salamea",
-    'website': "http://www.ayni.com.ec",
+    'author': "ITC Tecnologia",
+    'website': "http://www.itc.ec",
     'category': 'POS',
-    'version': '10.0.0.0.0',
+    'version': '1.1',
     'depends': [
         'point_of_sale',
-        'l10n_ec_authorisation'
     ],
     'data': [
         'data/pos.xml',
