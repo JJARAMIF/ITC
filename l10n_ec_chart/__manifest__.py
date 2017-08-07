@@ -5,10 +5,10 @@
 
 {
     'name': 'ITC - Accounting',
-	'summary': """NIIF SUPERCIAS Plan de Cuentas.""",
+	'summary': """NIIF SUPERCIAS Plan de Cuentas""",
     'version': '1.2',
 	'author': "ITC Tecnologia",
-    'maintainer': 'Fabrica de Software Libre',
+    'maintainer': 'ITC Tecnologia',
     'website': 'http://www.itc.ec',
     'license': 'AGPL-3',
     'category': 'Localization',
@@ -18,7 +18,7 @@ Modulo Base Odoo que inicializa el Plan de Cuentas para Ecuador.
 
 Plan de Cuentas y Localizacion Ecuador.
     """,
-    'author': 'ITC Store',
+
     'depends': [
         'account',
         'base_vat',
