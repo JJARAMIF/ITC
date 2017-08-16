@@ -1,11 +1,27 @@
-"id","reconcile","code",name,"user_type_id/id","chart_template_id:id"
+"id","reconcile","code","name","user_type_id/id","chart_template_id:id"
 1,False,1,ACTIVO,account.data_account_type_vista,ec_chart_template
 101,False,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
 10101,False,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
 1010101,False,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template
-101010101,False,101010101,CAJA CHICA GENERAL,account.data_account_type_current_assets,ec_chart_template
-101010102,False,101010102,CHEQUES POR DEPOSITAR,account.data_account_type_current_assets,ec_chart_template
-101010103,False,101010103,FONDO POR DEPOSITAR,account.data_account_type_current_assets,ec_chart_template
+101010101,False,101010101,CAJA GENERAL / FONDO POR DEPOSITAR,account.data_account_type_current_assets,ec_chart_template
+101010102,False,101010102,CAJA CHICA,account.data_account_type_vista,ec_chart_template
+10101010201,False,10101010201,CAJA CHICA 1,account.data_account_type_current_assets,ec_chart_template
+10101010202,False,10101010202,CAJA CHICA 2,account.data_account_type_current_assets,ec_chart_template
+101010103,False,101010103,EFECTOS DE COBRO INMEDIATO (CHEQUES),account.data_account_type_current_assets,ec_chart_template
+101010104,False,101010104,EFECTOS DE COBRO INMEDIATO (TARJETAS DE CRÉDITO),account.data_account_type_current_assets,ec_chart_template
+101010105,False,101010105,BANCOS,account.data_account_type_vista,ec_chart_template
+10101010501,False,10101010501,BANCO DE LOJA CTA CTE 2900652118,account.data_account_type_current_assets,ec_chart_template
+10101010502,False,10101010502,BANCO PICHINCHA CTA AHO 3460266600,account.data_account_type_current_assets,ec_chart_template
+10101010503,False,10101010503,BANCO GUAYAQUIL CTA CTE 9928944,account.data_account_type_current_assets,ec_chart_template
+10101010504,False,10101010504,BANCO BOLIVARIANO CTA AHO,account.data_account_type_current_assets,ec_chart_template
+10101010505,False,10101010505,BANCO SOLIDARIO CTA AHO,account.data_account_type_current_assets,ec_chart_template
+10101010506,False,10101010506,COOPMEGO CTA AHO,account.data_account_type_current_assets,ec_chart_template
+10101010507,False,10101010507,BANCO DE LOJA CTA AHO PABLO JARAMILLO,account.data_account_type_current_assets,ec_chart_template
+10101010508,False,10101010508,BANCO DE LOJA CRECEDIARIO,account.data_account_type_current_assets,ec_chart_template
+101010106,False,101010106,FONDO ROTATIVO,account.data_account_type_current_assets,ec_chart_template
+101010107,False,101010107,INVERSIONES TEMPORALES,account.data_account_type_vista,ec_chart_template
+10101010701,False,10101010701,COOPMEGO POLIZA,account.data_account_type_current_assets,ec_chart_template
+10102,False,10102,ACTIVOS FINANCIEROS,account.data_account_type_vista,ec_chart_template
 1010201,False,1010201,ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS,account.data_account_type_current_assets,ec_chart_template
 1010202,False,1010202,ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_current_assets,ec_chart_template
 1010203,False,1010203,ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_current_assets,ec_chart_template
