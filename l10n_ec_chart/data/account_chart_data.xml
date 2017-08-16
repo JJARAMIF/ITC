@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-        <!-- Account Types 
-        <record model="account.account.type" id="data_account_type_capital">
-            <field name="name">Capital</field>
-            <field name="type">other</field>
-            <field name="include_initial_balance" eval="True"/>
-        </record>
-        <record model="account.account.type" id="account.data_account_type_stock">
-            <field name="name">Inventario</field>
-            <field name="type">other</field>
-            <field name="include_initial_balance" eval="True"/>
-        </record> -->
 		
 		<record model="account.account.template" id="transfer_account_id">
 		 <field name="name">TRANSFERENCIA DE RESULTADOS A OTRAS CUENTAS PATRIMONIALES</field>
@@ -23,8 +12,8 @@
 		  <field name="name">ITC - Plan de Cuentas NIFF Ecuador</field>
 		  <field name="currency_id" ref="base.USD"/>
 		  <field name="transfer_account_id" ref="transfer_account_id"/>
-		  <field name="cash_account_code_prefix">10.01.011</field>
-		  <field name="bank_account_code_prefix">10.01.021</field>
+		  <field name="cash_account_code_prefix">1010101</field>
+		  <field name="bank_account_code_prefix">1010102</field>
 		  <field name="code_digits" eval="1"/>
 		  <field name="spoken_languages" eval="'es_EC'"/>
 		</record>    

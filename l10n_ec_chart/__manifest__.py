@@ -25,9 +25,10 @@ Plan de Cuentas y Localizacion Ecuador.
         'base_iban',
     ],
     'data': [
-        'data/account_chart_data.xml',
+        'data/account_chart_type.xml',
+	    'data/account_chart_data.xml',
 		'data/account.account.template.csv',
-		'data/account_tax_data.xml',
+		'data/account.account.data.csv',
 		'data/account_chart_default.xml',
         'data/account_chart_data.yml',
 		],
