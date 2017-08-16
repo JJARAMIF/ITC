@@ -4,9 +4,10 @@
 10101,False,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
 1010101,False,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template
 101010101,False,101010101,CAJA GENERAL / FONDO POR DEPOSITAR,account.data_account_type_liquidity,ec_chart_template
-101010102,False,101010102,CAJA CHICA,account.data_account_type_liquidity,ec_chart_template
+101010102,False,101010102,CAJA CHICA,account.data_account_type_vista,ec_chart_template
 10101010201,False,10101010201,CAJA CHICA 1,account.data_account_type_liquidity,ec_chart_template
 10101010202,False,10101010202,CAJA CHICA 2,account.data_account_type_liquidity,ec_chart_template
+10101010203,False,10101010202,CAJA CHICA 3,account.data_account_type_liquidity,ec_chart_template
 101010103,False,101010103,EFECTOS DE COBRO INMEDIATO (CHEQUES),account.data_account_type_liquidity,ec_chart_template
 101010104,False,101010104,EFECTOS DE COBRO INMEDIATO (TARJETAS DE CRÉDITO),account.data_account_type_liquidity,ec_chart_template
 101010105,False,101010105,BANCOS,account.data_account_type_vista,ec_chart_template
