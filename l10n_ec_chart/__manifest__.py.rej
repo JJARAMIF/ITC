@@ -1,0 +1,10 @@
+diff a/l10n_ec_chart/__manifest__.py b/l10n_ec_chart/__manifest__.py	(rejected hunks)
+@@ -23,7 +23,7 @@
+         'account',
+         'base_vat',
+         'base_iban',
+-		'account_accountant',
++		'accountant',
+     ],
+     'data': [
+         'data/account_chart_type.xml',
