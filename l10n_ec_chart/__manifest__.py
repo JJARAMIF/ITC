@@ -23,7 +23,6 @@ Plan de Cuentas y Localizacion Ecuador.
         'account',
         'base_vat',
         'base_iban',
-		'account_accountant',
     ],
     'data': [
         'data/account_chart_type.xml',
