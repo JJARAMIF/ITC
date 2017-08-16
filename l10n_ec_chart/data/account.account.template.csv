@@ -1,4 +1,5 @@
 "id","reconcile","code","name","user_type_id/id","chart_template_id:id"
+1,False,1,ACTIVO,account.data_account_type_vista,
 "1010201","False","1010201","ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS","account.data_account_type_current_assets","ec_chart_template"
 "1010202","False","1010202","ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA","account.data_account_type_current_assets","ec_chart_template"
 "1010203","False","1010203","ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO","account.data_account_type_current_assets","ec_chart_template"
