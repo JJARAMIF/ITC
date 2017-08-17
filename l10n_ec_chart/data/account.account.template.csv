@@ -157,7 +157,7 @@ id,reconcile,code,name,user_type_id/id,chart_template_id:id
 2010501,False,2010501,PROVISIONES LOCALES,account.data_account_type_current_liabilities,ec_chart_template
 2010502,False,2010502,PROVISIONES DEL EXTERIOR,account.data_account_type_current_liabilities,ec_chart_template
 20106,False,20106,PORCIÓN CORRIENTE DE OBLIGACIONES EMITIDAS,account.data_account_type_current_liabilities,ec_chart_template
-20107,False,2010701,OTRAS OBLIGACIONES CORRIENTES,account.data_account_type_vista,ec_chart_template
+20107,False,20107,OTRAS OBLIGACIONES CORRIENTES,account.data_account_type_vista,ec_chart_template
 2010701,False,2010701,CON LA ADMINISTRACIÓN TRIBUTARIA,account.data_account_type_vista,ec_chart_template
 201070101,False,201070101,IVA VENTAS POR PAGAR,account.data_account_type_vista,ec_chart_template
 20107010101,False,20107010101,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%,account.data_account_type_current_liabilities,ec_chart_template
