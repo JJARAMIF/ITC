@@ -1,7 +1,3 @@
-.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
-   :alt: License: AGPL-3
-
 ================================
 Módulo de Impuestos para Ecuador
 ================================
@@ -16,27 +12,33 @@ Configuración
 No requiere configuración extra.
 
 
-.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
-   :alt: Try me on Runbot
-   :target: https://runbot.odoo-community.org/runbot/{repo_id}/{branch}
-
-.. repo_id is available in https://github.com/OCA/maintainer-tools/blob/master/tools/repos_with_ids.txt
-.. branch is "8.0" for example
-
-
 Reportar Errores
 ================
 
-Bugs are tracked on `GitHub Issues
-<https://github.com/odoo-ecuador/odoo-ecuador/issues>`_. In case of trouble, please
-check there if your issue has already been reported. If you spotted it first,
-help us smashing it by providing a detailed and welcomed feedback.
+Los errores son rastreados en Github <https://github.com/JJARAMIF/ITC/issues>`_, en caso de problemas por favor revisa si ya han sido reportados en el apartado de issues,
+si los has detectado primero, por favor reportalos con la informacion debida, al menos debes indicar la versión,
+los pasos para reproducir y el comportamiento esperado.
 
 
-Contributors
+Créditos
+========
+
+* ITC Tecnologia
+
+Contribución
 ------------
 
-* Cristian Salamea <cristian.salamea@ayni.com.ec>
+    * ITC Store <info@itc.ec>
 
+Mantenimiento
+-------------
 
-This module is maintained by the Odoo Ecuador Team.
+.. image:: http://www.museoelrehilete.org.mx/images/areas-logos/tecnologia-logo.png
+   :alt: ITC Store
+   :target: http://www.itc.ec
+
+El manetenimiento de este módulo es responsabilidad de ITC Tecnologia.
+
+ITC, [Innovación, Tecnología, Confianza](http://www.itc.ec/), es una empresa dedicada 
+al comercio de Tecnologia y desarrollo de Soluciones Integrales.
+    :alt: License: AGPL-3
