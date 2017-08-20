@@ -1,4 +1,4 @@
 id,name,applicability,color
-account.account_tag_operating,Actividades Opertivas,Cuentas,0
-account.account_tag_financing,Actividades Financieras,Cuentas,0
-account.account_tag_investing,Actividades de Inversion y Extraordinarias,Cuentas,0
+account.account_tag_operativas,Actividades Opertivas,Cuentas,0
+account.account_tag_financieras,Actividades Financieras,Cuentas,0
+account.account_tag_inversion,Actividades de Inversion y Extraordinarias,Cuentas,0
