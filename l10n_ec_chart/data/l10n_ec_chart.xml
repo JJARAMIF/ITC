@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 		
-		<record model="account.account.template" id="transfer_account_id">
+		<record model="account.account" id="transfer_account_id">
 		 <field name="name">TRANSFERENCIA DE RESULTADOS A OTRAS CUENTAS PATRIMONIALES</field>
 		 <field name="code">990205</field>
 		 <field name="user_type_id" ref="account.data_account_type_current_assets" />
 		 <field name="reconcile" eval="True" />
 		</record>
 
-		<record id="ec_chart_template" model="account.chart.template">
+		<record  model="account.chart.template" id="ec_chart_template">
 		  <field name="name">ITC - Plan de Cuentas NIFF Ecuador</field>
 		  <field name="currency_id" ref="base.USD"/>
 		  <field name="transfer_account_id" ref="transfer_account_id"/>
@@ -18,7 +18,7 @@
 		  <field name="spoken_languages" eval="'es_EC'"/>
 		</record>    
 
-		<record model="account.account.template" id="transfer_account_id">
+		<record model="account.account" id="transfer_account_id">
 		  <field name="chart_template_id" ref="ec_chart_template"/>
 		</record>
 
