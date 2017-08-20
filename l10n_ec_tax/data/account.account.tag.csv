@@ -1,1 +1,13 @@
 id,name,applicability,color
+ret_ir,Retención Impuesto a la Renta,taxes,
+no_ret_ir,No sujeto a Retención Impuesto a la Renta,taxes,
+vat,IVA diferente de 0%,taxes,
+vat0,IVA 0,taxes,
+novat,No objeto de IVA,taxes,
+ret_vat_srv,Retención IVA Servicios,taxes,
+ret_vat_b,Retención IVA Bienes,taxes,
+ice,Impuesto a Consumos Especiales,taxes,
+isd,Impuesto a la Salida de Capitales,taxes,
+iad,Impuesto Aduanas,taxes,
+isb,Contribución Super de Bancos,taxes,
+comp,Compensaciones Tributarias,taxes,
