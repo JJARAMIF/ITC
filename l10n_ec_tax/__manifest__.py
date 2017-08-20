@@ -24,7 +24,6 @@ Plan de Impuestos Ecuador.
     'data': [
 		'data/account.account.tag.csv',
         'data/account.tax.group.csv',
-        'data/account.tax.template.csv',
         'data/account.fiscal.position.csv',
         'security/ir.model.access.csv',
         'view/views.xml',
