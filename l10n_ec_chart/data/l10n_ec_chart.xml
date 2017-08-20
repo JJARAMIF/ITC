@@ -16,6 +16,7 @@
 		  <field name="bank_account_code_prefix">1010102</field>
 		  <field name="code_digits" eval="1"/>
 		  <field name="spoken_languages" eval="'es_EC'"/>
+  		  <field name="use_anglo_saxon" eval="False"/>
 		</record>    
 
 		<record model="account.account.template" id="transfer_account_id">
