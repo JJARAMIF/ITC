@@ -1,8 +1,8 @@
-id,reconcile,reconcile,code,name,user_type_id/id,chart_template_id:id
-1,False,False,1,ACTIVO,account.data_account_type_vista,ec_chart_template
-101,False,False,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
-10101,False,False,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
-1010101,False,False,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template
+id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id
+1,False,True,1,ACTIVO,account.data_account_type_vista,ec_chart_template
+101,False,True,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
+10101,False,True,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
+1010101,False,True,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template
 101010101,False,False,101010101,CAJA GENERAL / FONDO POR DEPOSITAR,account.data_account_type_liquidity,ec_chart_template
 101010102,False,False,101010102,CAJA CHICA,account.data_account_type_vista,ec_chart_template
 10101010201,False,False,10101010201,CAJA CHICA 1,account.data_account_type_liquidity,ec_chart_template
