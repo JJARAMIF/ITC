@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# © <2016> <Cristian Salamea>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Copyright (C) 2017 ITC Tecnologia
 
 from . import tax
