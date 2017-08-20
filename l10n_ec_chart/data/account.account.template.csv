@@ -1,4 +1,4 @@
-id,reconcile,nocreate,tag_ids,code,name,user_type_id/id,chart_template_id:id
+id,reconcile,nocreate,tag_ids/id,code,name,user_type_id/id,chart_template_id:id
 1,False,True,account.account_tag_operativas,1,ACTIVO,account.data_account_type_vista,ec_chart_template
 101,False,True,account.account_tag_operativas,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
 10101,False,True,account.account_tag_operativas,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
