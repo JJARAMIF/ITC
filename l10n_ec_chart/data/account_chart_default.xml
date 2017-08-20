@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 		<!-- Cuentas por Defecto -->
-		<record id="ec_chart_template" model="account.chart.template">
+		<record model="account.chart.template" id="ec_chart_template">
 		  <field name="property_account_expense_categ_id" ref="520226"/>
 		  <field name="property_account_income_categ_id" ref="4109"/>  
 		  <field name="property_account_receivable_id" ref="1010206"/>
@@ -12,7 +12,5 @@
 		  <field name="property_stock_account_input_categ_id" ref="520402"/>
 		  <field name="property_stock_account_output_categ_id" ref="520402"/>
 		  <field name="property_stock_valuation_account_id" ref="520402"/>	  
-		  
-		  <field name="use_anglo_saxon" eval="False"/>
-		</record>   
+		</record>   -->
 </odoo>
