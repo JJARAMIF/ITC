@@ -1,0 +1,49 @@
+id,description,name,account_id/id,refund_account_id/id,amount_type,amount,percent_report,type_tax_use,tax_group_id/id,tag_ids/id,price_include,active
+account_tax302,302,RET. EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA,l10n_ec_chart.1_20107010201,l10n_ec_chart.1_20107010201,percent,0,0,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax303,303,RET. HONORARIOS PROFESIONALES ,l10n_ec_chart.1_20107010202,l10n_ec_chart.1_20107010202,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax304,304,RET. PREDOMINA EL INTELECTO,l10n_ec_chart.1_20107010203,l10n_ec_chart.1_20107010203,percent,-8,8,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax307,307,RET. PREDOMINA MANO DE OBRA,l10n_ec_chart.1_20107010204,l10n_ec_chart.1_20107010204,percent,-2,2,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax308,308,RET. SERVICIOS UTILIZACIÓN O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE,l10n_ec_chart.1_20107010205,l10n_ec_chart.1_20107010205,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax309,309,RET. PUBLICIDAD Y COMUNICACIÓN,l10n_ec_chart.1_20107010206,l10n_ec_chart.1_20107010206,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax310,310,RET. TRANS. PRIVADO DE PASAJEROS O SERV. PÚBLICO O PRIVADO DE CARGA,l10n_ec_chart.1_20107010207,l10n_ec_chart.1_20107010207,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax312,312,RET. TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL,l10n_ec_chart.1_20107010208,l10n_ec_chart.1_20107010208,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax320,320,RET. ARRENDAMIENTO BIENES INMUEBLES,l10n_ec_chart.1_20107010209,l10n_ec_chart.1_20107010209,percent,-8,8,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax322,322,RET. SEGUROS Y REASEGUROS (PRIMAS Y CESIONES),l10n_ec_chart.1_20107010210,l10n_ec_chart.1_20107010210,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax332,332,RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCIÓN,l10n_ec_chart.1_20107010211,l10n_ec_chart.1_20107010211,percent,0,0,purchase,no_ret_ir,tax_tag_no_ret_ir,False,True
+account_tax343,343,RET. APLICABLES EL 1%,l10n_ec_chart.1_20107010212,l10n_ec_chart.1_20107010212,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax344,344,RET. APLICABLES EL 2%,l10n_ec_chart.1_20107010213,l10n_ec_chart.1_20107010213,percent,-2,2,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax345,345,RET. APLICABLES EL 8%,l10n_ec_chart.1_20107010214,l10n_ec_chart.1_20107010214,percent,-8,8,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax346,346,RET. APLICABLES OTROS PORCENTAJES,l10n_ec_chart.1_20107010215,l10n_ec_chart.1_20107010215,percent,0,0,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_taxr1,1% IR,RETENCIONES A FAVOR DEL IMPUESTO A LA RENTA,,,percent,-1,1,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_taxr2,2% IS,RETENCIONES A FAVOR SERVICIOS,,,percent,-2,2,purchase,ret_ir,tax_tag_ret_ir,False,True
+account_tax401,401,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 12%,l10n_ec_chart.1_20107010101,l10n_ec_chart.1_20107010101,percent,12,12,sale,vat,tax_tag_vat,False,True
+account_tax402,402,VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%,l10n_ec_chart.1_20107010102,l10n_ec_chart.1_20107010102,percent,12,12,sale,vat,tax_tag_vat,False,True
+account_tax403,403,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 0% SIN CREDITO TRIBUTARIO,l10n_ec_chart.1_20107010103,l10n_ec_chart.1_20107010103,percent,0,0,sale,vat0,tax_tag_vat0,False,True
+account_tax404,404,VENTAS DE ACT FIJOS GRAVADAS TARIFA 0% SIN CREDITO TRIBUTARIO,l10n_ec_chart.1_20107010104,l10n_ec_chart.1_20107010104,percent,0,0,sale,vat0,tax_tag_vat0,False,True
+account_tax405,405,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 0% QUE DAN CREDITO TRIBUTARIO,l10n_ec_chart.1_20107010105,l10n_ec_chart.1_20107010105,percent,0,0,sale,vat0,tax_tag_vat0,False,True
+account_tax406,406,VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN CREDITO TRIBUTARIO,l10n_ec_chart.1_20107010106,l10n_ec_chart.1_20107010106,percent,0,0,sale,vat0,tax_tag_vat0,False,True
+account_tax407,407,EXPORTACION DE BIENES,l10n_ec_chart.1_20107010107,l10n_ec_chart.1_20107010107,percent,0,0,sale,vat,tax_tag_vat,False,True
+account_tax408,408,EXPORTACION DE SERVICIOS,l10n_ec_chart.1_20107010108,l10n_ec_chart.1_20107010108,percent,0,0,sale,vat,tax_tag_vat,False,True
+account_tax500,500,ADQUISICIONES Y PAGOS (EXC ACT FIJOS) TARIFA 12% (CON CREDITO TRIBUTARIO),l10n_ec_chart.1_10108010101,l10n_ec_chart.1_10108010101,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax501,501,ADQUISICIONES LOCALES DE ACT FIJOS GRAVADOS TARIFA 12% (CON CREDITO TRIBUTARIO),l10n_ec_chart.1_10108010102,l10n_ec_chart.1_10108010102,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax502,502,OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN CREDITO TRIBUTARIO),l10n_ec_chart.1_10108010103,l10n_ec_chart.1_10108010103,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax503,503,IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%,l10n_ec_chart.1_10108010104,l10n_ec_chart.1_10108010104,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax504,504,IMPORTACIONES DE BIENES (EXC ACT FIJOS) GRAVADOS TARIFA 12%,l10n_ec_chart.1_10108010105,l10n_ec_chart.1_10108010105,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax505,505,IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%,l10n_ec_chart.1_10108010106,l10n_ec_chart.1_10108010106,percent,12,12,purchase,vat,tax_tag_vat,False,True
+account_tax506,506,IMPORTACIONES DE BIENES (INCLUYE ACT FIJOS) GRAVADOS TARIFA 0%,l10n_ec_chart.1_10108010107,l10n_ec_chart.1_10108010107,percent,0,0,purchase,vat0,tax_tag_vat0,False,True
+account_tax507,507,ADQUISICIONES Y PAGOS (INCLUYE ACT FIJOS) GRAVADOS TARIFA 0%,l10n_ec_chart.1_10108010108,l10n_ec_chart.1_10108010108,percent,0,0,purchase,vat0,tax_tag_vat0,False,True
+account_tax508,508,ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE,l10n_ec_chart.1_10108010109,l10n_ec_chart.1_10108010109,percent,0,0,purchase,vat,tax_tag_vat,False,True
+account_tax531,531,ADQUISICIONES NO OBJETO DE IVA,l10n_ec_chart.1_10108010110,l10n_ec_chart.1_10108010110,percent,0,0,purchase,novat,tax_tag_novat,False,True
+account_tax532,532,ADQUISICIONES EXENTAS DEL PAGO DE IVA,l10n_ec_chart.1_10108010111,l10n_ec_chart.1_10108010111,percent,0,0,purchase,novat,tax_tag_novat,False,True
+account_tax6091,609-10,RETENCIONES A LA EMPRESA DEL 10%,l10n_ec_chart.1_20107010301,l10n_ec_chart.1_20107010301,percent,-1.4,10,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax6092,609-20,RETENCIONES A LA EMPRESA DEL 20%,l10n_ec_chart.1_20107010302,l10n_ec_chart.1_20107010302,percent,-2.8,20,sale,ret_vat_b,tax_tag_ret_vat_b,False,True
+account_tax6093,609-30,RETENCIONES A LA EMPRESA DEL 30%,l10n_ec_chart.1_20107010303,l10n_ec_chart.1_20107010303,percent,-4.2,30,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax6094,609-70,RETENCIONES A LA EMPRESA DEL 70%,l10n_ec_chart.1_20107010304,l10n_ec_chart.1_20107010304,percent,-9.8,70,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax6095,609-100,RETENCIONES A LA EMPRESA DEL 100%,l10n_ec_chart.1_20107010305,l10n_ec_chart.1_20107010305,percent,-14,100,sale,ret_vat_b,tax_tag_ret_vat_b,False,True
+account_tax721,721,RETENCIONES DEL 10%,l10n_ec_chart.1_101050101,l10n_ec_chart.1_101050101,percent,-1.4,10,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax723,723,RETENCIONES DEL 20%,l10n_ec_chart.1_101050102,l10n_ec_chart.1_101050102,percent,-2.8,20,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True
+account_tax725,725,RETENCIONES DEL 30%,l10n_ec_chart.1_101050103,l10n_ec_chart.1_101050103,percent,-4.2,30,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax726,726,RETENCIONES DEL 50%,,,percent,-7,50,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax727,727,RETENCIONES DEL 70%,l10n_ec_chart.1_101050104,l10n_ec_chart.1_101050104,percent,-9.8,70,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True
+account_tax729,729,RETENCIONES DEL 100%,l10n_ec_chart.1_101050105,l10n_ec_chart.1_101050105,percent,-14,100,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True
+account_tax_comp2,1,COMPENSACIONES 2%,,,percent,-2,2,sale,comp,tax_tag_comp,,True
