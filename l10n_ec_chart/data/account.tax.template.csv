@@ -16,17 +16,17 @@ account_tax345,345,RET. APLICABLES EL 8%,20107010214,20107010214,percent,-8,purc
 account_tax346,346,RET. APLICABLES OTROS PORCENTAJES,20107010215,20107010215,percent,0,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,346
 account_taxr1,1% IR,RETENCIONES A FAVOR DEL IMPUESTO A LA RENTA,,,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,
 account_taxr2,2% IS,RETENCIONES A FAVOR SERVICIOS,,,percent,-2,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,
-account_tax401,401,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 12%,20107010101,20107010101,percent,12,sale,vat,tax_tag_vat,False,True,ec_chart_template,401
-account_tax402,402,VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%,20107010102,20107010102,percent,12,sale,vat,tax_tag_vat,False,True,ec_chart_template,402
+account_tax401,401,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 12%,20107010101,20107010101,percent,12,sale,vat,tax_tag_vat,True,True,ec_chart_template,401
+account_tax402,402,VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%,20107010102,20107010102,percent,12,sale,vat,tax_tag_vat,True,True,ec_chart_template,402
 account_tax403,403,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 0% SIN CREDITO TRIBUTARIO,20107010103,20107010103,percent,0,sale,vat0,tax_tag_vat0,False,True,ec_chart_template,403
 account_tax404,404,VENTAS DE ACT FIJOS GRAVADAS TARIFA 0% SIN CREDITO TRIBUTARIO,20107010104,20107010104,percent,0,sale,vat0,tax_tag_vat0,False,True,ec_chart_template,404
 account_tax405,405,VENTAS LOCALES (EXC ACT FIJOS) GRAVADAS TARIFA 0% QUE DAN CREDITO TRIBUTARIO,20107010105,20107010105,percent,0,sale,vat0,tax_tag_vat0,False,True,ec_chart_template,405
 account_tax406,406,VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN CREDITO TRIBUTARIO,20107010106,20107010106,percent,0,sale,vat0,tax_tag_vat0,False,True,ec_chart_template,406
 account_tax407,407,EXPORTACION DE BIENES,20107010107,20107010107,percent,0,sale,vat,tax_tag_vat,False,True,ec_chart_template,407
 account_tax408,408,EXPORTACION DE SERVICIOS,20107010108,20107010108,percent,0,sale,vat,tax_tag_vat,False,True,ec_chart_template,408
-account_tax500,500,ADQUISICIONES Y PAGOS (EXC ACT FIJOS) TARIFA 12% (CON CREDITO TRIBUTARIO),10108010101,10108010101,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,500
-account_tax501,501,ADQUISICIONES LOCALES DE ACT FIJOS GRAVADOS TARIFA 12% (CON CREDITO TRIBUTARIO),10108010102,10108010102,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,501
-account_tax502,502,OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN CREDITO TRIBUTARIO),10108010103,10108010103,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,502
+account_tax500,500,ADQUISICIONES Y PAGOS (EXC ACT FIJOS) TARIFA 12% (CON CREDITO TRIBUTARIO),10108010101,10108010101,percent,12,purchase,vat,tax_tag_vat,True,True,ec_chart_template,500
+account_tax501,501,ADQUISICIONES LOCALES DE ACT FIJOS GRAVADOS TARIFA 12% (CON CREDITO TRIBUTARIO),10108010102,10108010102,percent,12,purchase,vat,tax_tag_vat,True,True,ec_chart_template,501
+account_tax502,502,OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN CREDITO TRIBUTARIO),10108010103,10108010103,percent,12,purchase,vat,tax_tag_vat,True,True,ec_chart_template,502
 account_tax503,503,IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%,10108010104,10108010104,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,503
 account_tax504,504,IMPORTACIONES DE BIENES (EXC ACT FIJOS) GRAVADOS TARIFA 12%,10108010105,10108010105,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,504
 account_tax505,505,IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%,10108010106,10108010106,percent,12,purchase,vat,tax_tag_vat,False,True,ec_chart_template,505

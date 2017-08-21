@@ -2,7 +2,7 @@ id,name,sequence
 ret_ir,Retención Impuesto a la Renta,
 no_ret_ir,No sujeto a Retención Impuesto a la Renta,
 vat,IVA diferente de 0%,
-vat0,IVA 0,
+vat0,IVA 0%,
 novat,No objeto de IVA,
 ret_vat_srv,Retención IVA Servicios,
 ret_vat_b,Retención IVA Bienes,
