@@ -35,15 +35,15 @@ account_tax507,507,ADQUISICIONES Y PAGOS (INCLUYE ACT FIJOS) GRAVADOS TARIFA 0%,
 account_tax508,508,ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE,10108010109,10108010109,percent,0,purchase,vat,tax_tag_vat,False,True,ec_chart_template,508
 account_tax531,531,ADQUISICIONES NO OBJETO DE IVA,10108010110,10108010110,percent,0,purchase,novat,tax_tag_novat,False,True,ec_chart_template,531
 account_tax532,532,ADQUISICIONES EXENTAS DEL PAGO DE IVA,10108010111,10108010111,percent,0,purchase,novat,tax_tag_novat,False,True,ec_chart_template,532
-account_tax6091,609-10,RETENCIONES A LA EMPRESA DEL 10%,20107010301,20107010301,percent,-1.4,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
-account_tax6092,609-20,RETENCIONES A LA EMPRESA DEL 20%,20107010302,20107010302,percent,-2.8,sale,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,609
-account_tax6093,609-30,RETENCIONES A LA EMPRESA DEL 30%,20107010303,20107010303,percent,-4.2,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
-account_tax6094,609-70,RETENCIONES A LA EMPRESA DEL 70%,20107010304,20107010304,percent,-9.8,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
-account_tax6095,609-100,RETENCIONES A LA EMPRESA DEL 100%,20107010305,20107010305,percent,-14,sale,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,609
-account_tax721,721,RETENCIONES DEL 10%,101050101,101050101,percent,-1.4,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,721
-account_tax723,723,RETENCIONES DEL 20%,101050102,101050102,percent,-2.8,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,723
-account_tax725,725,RETENCIONES DEL 30%,101050103,101050103,percent,-4.2,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,725
-account_tax726,726,RETENCIONES DEL 50%,,,percent,-7,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,726
-account_tax727,727,RETENCIONES DEL 70%,101050104,101050104,percent,-9.8,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,727
-account_tax729,729,RETENCIONES DEL 100%,101050105,101050105,percent,-14,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,729
+account_tax6091,609-10,RETENCIONES A LA EMPRESA DEL 10%,20107010301,20107010301,percent,-1.2,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
+account_tax6092,609-20,RETENCIONES A LA EMPRESA DEL 20%,20107010302,20107010302,percent,-2.4,sale,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,609
+account_tax6093,609-30,RETENCIONES A LA EMPRESA DEL 30%,20107010303,20107010303,percent,-3.6,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
+account_tax6094,609-70,RETENCIONES A LA EMPRESA DEL 70%,20107010304,20107010304,percent,-8.4,sale,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,609
+account_tax6095,609-100,RETENCIONES A LA EMPRESA DEL 100%,20107010305,20107010305,percent,-12,sale,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,609
+account_tax721,721,RETENCIONES DEL 10%,101050101,101050101,percent,-1.2,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,721
+account_tax723,723,RETENCIONES DEL 20%,101050102,101050102,percent,-2.4,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,723
+account_tax725,725,RETENCIONES DEL 30%,101050103,101050103,percent,-3.6,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,725
+account_tax726,726,RETENCIONES DEL 50%,,,percent,-6,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,726
+account_tax727,727,RETENCIONES DEL 70%,101050104,101050104,percent,-8.4,purchase,ret_vat_srv,tax_tag_ret_vat_srv,False,True,ec_chart_template,727
+account_tax729,729,RETENCIONES DEL 100%,101050105,101050105,percent,-12,purchase,ret_vat_b,tax_tag_ret_vat_b,False,True,ec_chart_template,729
 account_tax_comp2,1,COMPENSACIONES 2%,,,percent,-2,sale,comp,tax_tag_comp,,True,ec_chart_template,1
