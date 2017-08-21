@@ -1,4 +1,7 @@
 id,name,applicability,color
+account_tag_operativas,Actividades Opertivas,Cuentas,
+account_tag_financieras,Actividades Financieras,Cuentas,
+account_tag_inversion,Actividades de Inversion y Extraordinarias,Cuentas,
 tax_tag_ret_ir,Retención Impuesto a la Renta,taxes,
 tax_tag_no_ret_ir,No sujeto a Retención Impuesto a la Renta,taxes,
 tax_tag_vat,IVA diferente de 0%,taxes,
