@@ -31,7 +31,8 @@ Plan de Cuentas y Localizacion Ecuador.
 		'data/account.account.template.csv',
         'data/account.tax.group.csv',
         'data/account.tax.template.csv',
-        'data/account.fiscal.position.csv',		'data/account_chart_default.xml',
+        'data/account.fiscal.position.csv',		
+		'data/account_chart_default.xml',
 		'data/account_chart_template.yml',
 		],
 }
