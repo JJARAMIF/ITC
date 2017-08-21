@@ -19,17 +19,3 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. module: l10n_ec_chart
-#: model:account.account.type,name:l10n_ec_chart.account_type_financieras
-msgid "Financieras"
-msgstr "Financieras"
-
-#. module: l10n_ec_chart
-#: model:ir.ui.menu,name:l10n_ec_chart.account_reports_ec_statements_menu
-msgid "Spanish Statements"
-msgstr "Registros Contables Ecuador"
-
-#. module: l10n_ec_chart
-#: model:account.account.type,name:l10n_ec_chart.account_type_terceros
-msgid "Terceros"
-msgstr "Terceros"

@@ -17,17 +17,3 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: l10n_ec_chart
-#: model:ir.ui.menu,name:l10n_ec_chart.account_reports_ec_statements_menu
-msgid "Spanish Statements"
-msgstr ""
-
-#. module: l10n_ec_chart
-#: model:account.account.type,name:l10n_ec_chart.account_type_financieras
-msgid "Financieras"
-msgstr ""
-
-#. module: l10n_ec_chart
-#: model:account.account.type,name:l10n_ec.account_type_terceros
-msgid "Terceros"
-msgstr ""
