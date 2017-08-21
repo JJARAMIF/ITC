@@ -20,6 +20,7 @@ Plan de Cuentas y Localizacion Ecuador.
 
     'depends': [
         'account',
+        'base_vat',
 		'account_accountant',
     ],
     'data': [
