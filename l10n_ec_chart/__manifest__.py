@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2017 ITC Tecnologia
-
+		#'account_accountant',
 {
     'name': 'ITC - Accounting',
 	'summary': """NIIF SUPERCIAS Plan de Cuentas""",
@@ -20,7 +20,6 @@ Plan de Cuentas y Localizacion Ecuador.
 
     'depends': [
         'account',
-		#'account_accountant',
     ],
     'data': [
 	    'data/l10n_ec_chart.xml',
