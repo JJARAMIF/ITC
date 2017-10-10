@@ -20,7 +20,7 @@ Plan de Cuentas y Localizacion Ecuador.
 
     'depends': [
         'account',
-		'account_accountant',
+		#'account_accountant',
     ],
     'data': [
 	    'data/l10n_ec_chart.xml',
