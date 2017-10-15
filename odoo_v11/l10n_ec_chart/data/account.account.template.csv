@@ -1,489 +1,489 @@
-id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id,tag_ids/id,note
-1,False,True,1,ACTIVO,account.data_account_type_vista,ec_chart_template,,
-101,False,True,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template,,
-10101,False,True,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template,,
-1010101,False,True,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template,,
-101010101,False,True,101010101,CAJA GENERAL,account.data_account_type_vista,ec_chart_template,,
-101010102,False,True,101010102,CAJA CHICA,account.data_account_type_vista,ec_chart_template,,
-101010103,False,True,101010103,EFECTOS DE COBRO INMEDIATO (CHEQUES),account.data_account_type_vista,ec_chart_template,,
-101010104,False,True,101010104,EFECTOS DE COBRO INMEDIATO (TARJETAS DE CRÉDITO),account.data_account_type_vista,ec_chart_template,,
-101010105,False,True,101010105,BANCOS,account.data_account_type_vista,ec_chart_template,,
-101010106,False,True,101010106,FONDO ROTATIVO,account.data_account_type_vista,ec_chart_template,,
-101010107,False,True,101010107,INVERSIONES TEMPORALES,account.data_account_type_vista,ec_chart_template,,
-10102,False,True,10102,ACTIVOS FINANCIEROS,account.data_account_type_vista,ec_chart_template,,
-1010201,False,False,1010201,ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS,account.data_account_type_current_assets,ec_chart_template,,
-1010202,False,False,1010202,ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_current_assets,ec_chart_template,,
-1010203,False,False,1010203,ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_current_assets,ec_chart_template,,
-1010204,False,False,1010204,(-) PROVISION POR DETERIORO,account.data_account_type_current_assets,ec_chart_template,,
-1010205,False,True,1010205,DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES NO RELACIONADOS,account.data_account_type_vista,ec_chart_template,,
-101020501,True,True,101020501,DE ACTIVIDADES ORDINARIAS QUE GENEREN INTERESES,account.data_account_type_vista,ec_chart_template,,
-10102050101,True,False,10102050101,CARTERA DE CLIENTES NO RELACIONADOS,account.data_account_type_receivable,ec_chart_template,,
-10102050102,True,False,10102050102,CHEQUES DEVUELTOS / PROTESTADOS,account.data_account_type_receivable,ec_chart_template,,
-101020502,True,True,101020502,DE ACTIVIDADES ORDINARIAS QUE NO GENEREN INTERESES,account.data_account_type_vista,ec_chart_template,,
-10102050201,True,False,10102050201,CARTERA DE CLIENTES NO RELACIONADOS,account.data_account_type_receivable,ec_chart_template,,
-10102050202,True,False,10102050202,CHEQUES DEVUELTOS / PROTESTADOS,account.data_account_type_receivable,ec_chart_template,,
-1010206,True,False,1010206,DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES RELACIONADOS,account.data_account_type_receivable,ec_chart_template,,
-1010207,True,False,1010207,OTRAS CUENTAS POR COBRAR RELACIONADAS,account.data_account_type_receivable,ec_chart_template,,
-1010208,True,True,1010208,OTRAS CUENTAS POR COBRAR,account.data_account_type_vista,ec_chart_template,,
-101020801,True,False,101020801, RETENCIONES POR COBRAR,account.data_account_type_receivable,ec_chart_template,,
-101020802,True,False,101020802,PRESTAMOS A EMPLEADOS,account.data_account_type_receivable,ec_chart_template,,
-101020803,True,False,101020803,CUENTAS POR COBRAR VARIAS,account.data_account_type_receivable,ec_chart_template,,
-101020804,True,False,101020804,SERVICIOS Y OTROS PAGOS ANTICIPADOS,account.data_account_type_receivable,ec_chart_template,,
-101020805,True,False,101020805,ANTICIPO SUELDOS EMPLEADOS,account.data_account_type_receivable,ec_chart_template,,
-101020806,True,False,101020806,ANTICIPO DE VIATICOS,account.data_account_type_receivable,ec_chart_template,,
-1010209,False,False,1010209,(-) PROVISIÓN CUENTAS INCOBRABLES Y DETERIORO,account.data_account_type_current_assets,ec_chart_template,,
-10103,False,True,10103,INVENTARIOS,account.data_account_type_vista,ec_chart_template,,
-1010301,False,False,1010301,INVENTARIOS DE MATERIA PRIMA,account.data_account_type_current_assets,ec_chart_template,,
-1010302,False,False,1010302,INVENTARIOS DE PRODUCTOS EN PROCESO,account.data_account_type_current_assets,ec_chart_template,,
-1010303,False,False,1010303,INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_current_assets,ec_chart_template,,
-1010304,False,False,1010304,INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN LA PRESTACIÓN DE SERVICIO,account.data_account_type_current_assets,ec_chart_template,,
-1010305,False,False,1010305,INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - PRODUCIDO POR LA COMPAÑÍA,account.data_account_type_current_assets,ec_chart_template,,
-1010306,False,False,1010306,INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - COMPRADO DE TERCEROS,account.data_account_type_current_assets,ec_chart_template,,
-1010307,False,False,1010307,MERCADERÍAS EN TRÁNSITO,account.data_account_type_current_assets,ec_chart_template,,
-1010308,False,False,1010308,OBRAS EN CONSTRUCCION,account.data_account_type_current_assets,ec_chart_template,,
-1010309,False,False,1010309,OBRAS TERMINADAS,account.data_account_type_current_assets,ec_chart_template,,
-1010310,False,False,1010310,MATERIALES O BIENES PARA LA CONSTRUCCIÓN,account.data_account_type_current_assets,ec_chart_template,,
-1010311,False,False,1010311,"INVENTARIOS REPUESTOS, HERRAMIENTAS Y ACCESORIOS",account.data_account_type_current_assets,ec_chart_template,,
-1010312,False,False,1010312,OTROS INVENTARIOS,account.data_account_type_current_assets,ec_chart_template,,
-1010313,False,False,1010313,(-) PROVISIÓN POR VALOR NETO DE REALIZACIÓN Y OTRAS PÉRDIDAS EN EL INVENTARIO,account.data_account_type_current_assets,ec_chart_template,,
-10104,False,True,10104,SERVICIOS Y OTROS PAGOS ANTICIPADOS,account.data_account_type_vista,ec_chart_template,,
-1010401,True,False,1010401,SEGUROS PAGADOS POR ANTICIPADO,account.data_account_type_prepayments,ec_chart_template,,
-1010402,True,False,1010402,ARRIENDOS PAGADOS POR ANTICIPADO,account.data_account_type_prepayments,ec_chart_template,,
-1010403,True,False,1010403,ANTICIPOS A PROVEEDORES,account.data_account_type_prepayments,ec_chart_template,,
-1010404,True,False,1010404,OTROS ANTICIPOS ENTREGADOS,account.data_account_type_prepayments,ec_chart_template,,
-10105,False,True,10105,ACTIVOS POR IMPUESTOS CORRIENTES,account.data_account_type_vista,ec_chart_template,,
-1010501,False,True,1010501,CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA (IVA),account.data_account_type_vista,ec_chart_template,,
-101050101,False,False,101050101,ANTICIPO RETENCION IVA 10%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050102,False,False,101050102,ANTICIPO RETENCION IVA 20%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050103,False,False,101050103,ANTICIPO RETENCION IVA 30%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050104,False,False,101050104,ANTICIPO RETENCION IVA 70%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050105,False,False,101050105,ANTICIPO RETENCION IVA 100%,account.data_account_type_non_current_assets,ec_chart_template,,
-1010502,False,True,1010502,CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA ( I. R.),account.data_account_type_vista,ec_chart_template,,
-101050201,False,False,101050201,ANTICIPO RETENCION EN LA FUENTE 1%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050202,False,False,101050202,ANTICIPO RETENCION EN LA FUENTE 2%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050203,False,False,101050203,ANTICIPO RETENCION EN LA FUENTE 8%,account.data_account_type_non_current_assets,ec_chart_template,,
-101050204,False,False,101050204,ANTICIPO RETENCION EN LA FUENTE 10%,account.data_account_type_non_current_assets,ec_chart_template,,
-1010503,False,False,1010503,ANTICIPO DE IMPUESTO A LA RENTA,account.data_account_type_non_current_assets,ec_chart_template,,
-10106,False,False,10106,ACTIVOS NO CORRIENTES MANTENIDOS PARA LA VENTA Y OPERACIONES DISCONTINUADAS,account.data_account_type_non_current_assets,ec_chart_template,,
-10107,False,False,10107,CONSTRUCCIONES EN PROCESO (NIC 11 Y SECC.23 PYMES),account.data_account_type_fixed_assets,ec_chart_template,,
-10108,False,False,10108,OTROS ACTIVOS CORRIENTES,account.data_account_type_non_current_assets,ec_chart_template,,
-1010801,False,True,1010801,IMPUESTOS FISCALES,account.data_account_type_vista,ec_chart_template,,
-101080101,False,True,101080101,IVA PAGADO (IVA COMPRAS) (529-104),account.data_account_type_vista,ec_chart_template,,
-10108010101,False,False,10108010101,IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template,,
-10108010102,False,False,10108010102,IVA ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template,,
-10108010103,False,False,10108010103,IVA OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template,,
-10108010104,False,False,10108010104,IVA IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010105,False,False,10108010105,IVA IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010106,False,False,10108010106,IVA IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010107,False,False,10108010107,IVA IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010108,False,False,10108010108,ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010109,False,False,10108010109,ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE ,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010110,False,False,10108010110,ADQUISICIONES NO OBJETO DE IVA,account.data_account_type_non_current_assets,ec_chart_template,,
-10108010111,False,False,10108010111,ADQUISICIONES EXENTAS DEL PAGO DE IVA,account.data_account_type_non_current_assets,ec_chart_template,,
-102,False,True,102,ACTIVO NO CORRIENTE,account.data_account_type_vista,ec_chart_template,,
-10201,False,True,10201,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_vista,ec_chart_template,,
-1020101,False,False,1020101,TERRENOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020102,False,False,1020102,EDIFICIOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020103,False,False,1020103,CONTRUCCIONES EN CURSO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020104,False,False,1020104,INSTALACIONES,account.data_account_type_fixed_assets,ec_chart_template,,
-1020105,False,False,1020105,MUEBLES Y ENSERES,account.data_account_type_fixed_assets,ec_chart_template,,
-1020106,False,False,1020106,MAQUINARIA Y EQUIPO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020107,False,False,1020107,"NAVES, AERONAVES, BARCAZAS Y SIMILARES",account.data_account_type_fixed_assets,ec_chart_template,,
-1020108,False,False,1020108,EQUIPO DE COMPUTACIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-1020109,False,False,1020109,"VEHÍCULOS, EQUIPOS DE TRANSPORTE Y EQUIPO CAMINERO MÓVIL",account.data_account_type_fixed_assets,ec_chart_template,,
-1020110,False,False,1020110,"OTROS PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template,,
-1020111,False,False,1020111,REPUESTOS Y HERRAMIENTAS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020112,False,False,1020112,"(-) DEPRECIACIÓN ACUMULADA PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template,,
-1020113,False,False,1020113,"(-) DETERIORO  ACUMULADO DE PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template,,
-1020114,False,True,1020114,ACTIVOS DE EXPLORACION Y EXPLOTACION,account.data_account_type_vista,ec_chart_template,,
-102011401,False,False,102011401,ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-102011402,False,False,102011402,(-) AMORTIZACIÓN ACUMULADA DE ACTIVOS DE EXLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-102011403,False,False,102011403,(-) DETERIORO ACUMULADO DE ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-10202,False,True,10202,PROPIEDADES DE INVERSIÓN,account.data_account_type_vista,ec_chart_template,,
-1020201,False,False,1020201,TERRENOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020202,False,False,1020202,EDIFICIOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020203,False,False,1020203,(-) DEPRECIACION ACUMULADA DE PROPIEDADES DE INVERSIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-1020204,False,False,1020204,(-) DETERIORO ACUMULADO DE PROPIEDADES DE INVERSIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-10203,False,True,10203,ACTIVOS BIOLOGICOS,account.data_account_type_vista,ec_chart_template,,
-1020301,False,False,1020301,ANIMALES VIVOS EN CRECIMIENTO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020302,False,False,1020302,ANIMALES VIVOS EN PRODUCCIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-1020303,False,False,1020303,PLANTAS EN CRECIMIENTO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020304,False,False,1020304,PLANTAS EN PRODUCCIÓN,account.data_account_type_fixed_assets,ec_chart_template,,
-1020305,False,False,1020305,(-) DEPRECIACIÓN ACUMULADA DE ACTIVOS BIOLÓGICOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020306,False,False,1020306,(-) DETERIORO ACUMULADO DE ACTIVOS BIOLÓGICOS,account.data_account_type_fixed_assets,ec_chart_template,,
-10204,False,True,10204,ACTIVO INTANGIBLE,account.data_account_type_vista,ec_chart_template,,
-1020401,False,False,1020401,PLUSVALÍAS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020402,False,False,1020402,"MARCAS, PATENTES, DERECHOS DE LLAVE, CUOTAS PATRIMONIALES  Y OTROS SIMILARES",account.data_account_type_fixed_assets,ec_chart_template,,
-1020403,False,False,1020403,ACTIVOS DE EXPLORACION Y EXPLOTACION,account.data_account_type_fixed_assets,ec_chart_template,,
-1020404,False,False,1020404,(-) AMORTIZACIÓN ACUMULADA DE ACTIVO INTANGIBLE,account.data_account_type_fixed_assets,ec_chart_template,,
-1020405,False,False,1020405,(-) DETERIORO ACUMULADO DE ACTIVO INTANGIBLE,account.data_account_type_fixed_assets,ec_chart_template,,
-1020406,False,False,1020406,OTROS INTANGIBLES,account.data_account_type_fixed_assets,ec_chart_template,,
-10205,False,False,10205,ACTIVOS POR IMPUESTOS DIFERIDOS,account.data_account_type_fixed_assets,ec_chart_template,,
-10206,False,True,10206,ACTIVOS FINANCIEROS NO CORRIENTES,account.data_account_type_vista,ec_chart_template,,
-1020601,False,False,1020601,ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020602,False,False,1020602,(-) PROVISIÓN POR DETERIORO DE ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_fixed_assets,ec_chart_template,,
-1020603,False,False,1020603,DOCUMENTOS Y CUENTAS POR COBRAR,account.data_account_type_fixed_assets,ec_chart_template,,
-1020604,False,False,1020604,(-) PROVISIÓN CUENTAS INCOBRABLES DE ACTIVOS FINANCIEROS NO CORRIENTES,account.data_account_type_fixed_assets,ec_chart_template,,
-10207,False,True,10207,OTROS ACTIVOS NO CORRIENTES,account.data_account_type_vista,ec_chart_template,,
-1020701,False,False,1020701,INVERSIONES SUBSIDIARIAS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020702,False,False,1020702,INVERSIONES ASOCIADAS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020703,False,False,1020703,INVERSIONES NEGOCIOS CONJUNTOS,account.data_account_type_fixed_assets,ec_chart_template,,
-1020704,False,False,1020704,OTRAS INVERSIONES,account.data_account_type_fixed_assets,ec_chart_template,,
-1020705,False,False,1020705,(-) PROVISIÓN VALUACIÓN DE INVERSIONES,account.data_account_type_fixed_assets,ec_chart_template,,
-1020706,False,False,1020706,OTROS ACTIVOS NO CORRIENTES,account.data_account_type_fixed_assets,ec_chart_template,,
-2,False,True,2,PASIVO,account.data_account_type_vista,ec_chart_template,,
-201,False,True,201,PASIVO CORRIENTE,account.data_account_type_vista,ec_chart_template,,
-20101,False,False,20101,PASIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADO,account.data_account_type_current_liabilities,ec_chart_template,,
-20102,False,False,20102,PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIEROS,account.data_account_type_current_liabilities,ec_chart_template,,
-20103,False,True,20103,CUENTAS Y DOCUMENTOS POR PAGAR,account.data_account_type_vista,ec_chart_template,,
-2010301,True,False,2010301,CUENTAS Y DOCUMENTOS POR PAGAR PROVEEDORES LOCALES,account.data_account_type_payable,ec_chart_template,,
-2010302,True,False,2010302,CUENTAS Y DOCUMENTOS POR PAGAR PROVEEDORES DEL EXTERIOR,account.data_account_type_payable,ec_chart_template,,
-20104,False,True,20104,OBLIGACIONES CON INSTITUCIONES FINANCIERAS,account.data_account_type_vista,ec_chart_template,,
-2010401,False,False,2010401,OBLIGACIONES CON INSTITUCIONES FINANCIERAS LOCALES,account.data_account_type_current_liabilities,ec_chart_template,,
-2010402,False,False,2010402,OBLIGACIONES CON INSTITUCIONES FINANCIERAS DEL EXTERIOR,account.data_account_type_current_liabilities,ec_chart_template,,
-20105,False,True,20105,PROVISIONES,account.data_account_type_vista,ec_chart_template,,
-2010501,False,False,2010501,PROVISIONES LOCALES,account.data_account_type_current_liabilities,ec_chart_template,,
-2010502,False,False,2010502,PROVISIONES DEL EXTERIOR,account.data_account_type_current_liabilities,ec_chart_template,,
-20106,False,False,20106,PORCIÓN CORRIENTE DE OBLIGACIONES EMITIDAS,account.data_account_type_current_liabilities,ec_chart_template,,
-20107,False,True,20107,OTRAS OBLIGACIONES CORRIENTES,account.data_account_type_vista,ec_chart_template,,
-2010701,False,True,2010701,CON LA ADMINISTRACIÓN TRIBUTARIA,account.data_account_type_vista,ec_chart_template,,
-201070101,False,True,201070101,IVA VENTAS POR PAGAR,account.data_account_type_vista,ec_chart_template,,
-20107010101,False,False,20107010101,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010102,False,False,20107010102,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010103,False,False,20107010103,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010104,False,False,20107010104,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010105,False,False,20107010105,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010106,False,False,20107010106,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010107,False,False,20107010107,EXPORTACIONES DE BIENES,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010108,False,False,20107010108,EXPORTACIONES DE SERVICIOS,account.data_account_type_current_liabilities,ec_chart_template,,
-201070102,False,True,201070102,RETENCIONES IMPUESTO A LA RENTA POR PAGAR,account.data_account_type_vista,ec_chart_template,,
-20107010201,False,False,20107010201,RET. EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010202,False,False,20107010202,RET. HONORARIOS PROFESIONALES ,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010203,False,False,20107010203,RET. PREDOMINA EL INTELECTO,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010204,False,False,20107010204,RET. PREDOMINA MANO DE OBRA,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010205,False,False,20107010205,RET. SERVICIOS UTILIZACIÓN O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010206,False,False,20107010206,RET. PUBLICIDAD Y COMUNICACIÓN,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010207,False,False,20107010207,RET. TRANS. PRIVADO DE PASAJEROS O SERV. PÚBLICO O PRIVADO DE CARGA,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010208,False,False,20107010208,RET. TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010209,False,False,20107010209,RET. ARRENDAMIENTO BIENES INMUEBLES,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010210,False,False,20107010210,RET. SEGUROS Y REASEGUROS (PRIMAS Y CESIONES),account.data_account_type_current_liabilities,ec_chart_template,,
-20107010211,False,False,20107010211,RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCIÓN,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010212,False,False,20107010212,RET. APLICABLES EL 1%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010213,False,False,20107010213,RET. APLICABLES EL 2%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010214,False,False,20107010214,RET. APLICABLES EL 8%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010215,False,False,20107010215,RET. APLICABLES OTROS PORCENTAJES,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010216,False,False,20107010216,RETENCIONES A FAVOR DEL IMPUESTO A LA RENTA,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010217,False,False,20107010217,RETENCIONES A FAVOR SERVICIOS,account.data_account_type_current_liabilities,ec_chart_template,,
-201070103,False,True,201070103,RETENCIONES IMPUESTO IVA POR PAGAR,account.data_account_type_vista,ec_chart_template,,
-20107010301,False,False,20107010301,RETENCION IVA POR PAGAR 10%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010302,False,False,20107010302,RETENCION IVA POR PAGAR 20%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010303,False,False,20107010303,RETENCION IVA POR PAGAR 30%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010304,False,False,20107010304,RETENCION IVA POR PAGAR 70%,account.data_account_type_current_liabilities,ec_chart_template,,
-20107010305,False,False,20107010305,RETENCION IVA POR PAGAR 100%,account.data_account_type_current_liabilities,ec_chart_template,,
-2010702,False,False,2010702,IMPUESTO A LA RENTA POR PAGAR DEL EJERCICIO,account.data_account_type_current_liabilities,ec_chart_template,,
-2010703,False,True,2010703,CON EL IESS,account.data_account_type_vista,ec_chart_template,,
-201070301,False,False,201070301,APORTE INDIVIDUAL POR PAGAR (9.45%),account.data_account_type_current_liabilities,ec_chart_template,,
-201070302,False,False,201070302,APORTE PATRONAL POR PAGAR (12.15%),account.data_account_type_current_liabilities,ec_chart_template,,
-201070303,False,False,201070303,PRESTAMOS QUIROGRAFARIOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070304,False,False,201070304,IECE POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070305,False,False,201070305,SECAP POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070306,False,False,201070306,PRESTAMOS HIPOTECARIOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070307,False,False,201070307,EXTENSION DE SALUD CONYUGES POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-2010704,False,True,2010704,POR BENEFICIOS DE LEY A EMPLEADOS,account.data_account_type_vista,ec_chart_template,,
-201070401,False,False,201070401,DECIMO TERCER SUELDO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070402,False,False,201070402,DECIMO CUARTO SUELDO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070403,False,False,201070403,FONDOS DE RESERVA POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-201070404,False,False,201070404,VACACIONES,account.data_account_type_current_liabilities,ec_chart_template,,
-201070405,False,False,201070405,DESAHUCIO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-2010705,False,False,2010705,PARTICIPACIÓN TRABAJADORES POR PAGAR DEL EJERCICIO,account.data_account_type_current_liabilities,ec_chart_template,,
-2010706,False,False,2010706,DIVIDENDOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-20108,False,False,20108,CUENTAS POR PAGAR DIVERSAS – RELACIONADAS,account.data_account_type_current_liabilities,ec_chart_template,,
-20109,False,False,20109,OTROS PASIVOS FINANCIEROS,account.data_account_type_current_liabilities,ec_chart_template,,
-20110,True,True,20110,ANTICIPOS DE CLIENTES,account.data_account_type_current_liabilities,ec_chart_template,,
-20111,False,False,20111,PASIVOS DIRECTAMENTE ASOCIADOS CON LOS ACTIVOS NO CORRIENTES Y OPERACIONES DISCONTINUADAS,account.data_account_type_current_liabilities,ec_chart_template,,
-20112,False,True,20112,PORCION CORRIENTE DE PROVISIONES POR BENEFICIOS A EMPLEADOS,account.data_account_type_vista,ec_chart_template,,
-2011201,False,False,2011201,JUBILACIÓN PATRONAL,account.data_account_type_current_liabilities,ec_chart_template,,
-2011202,False,False,2011202,OTROS BENEFICIOS A LARGO PLAZO PARA LOS EMPLEADOS,account.data_account_type_current_liabilities,ec_chart_template,,
-20113,False,True,20113,OTROS PASIVOS CORRIENTES,account.data_account_type_vista,ec_chart_template,,
-2011301,False,False,2011301,DEPOSITOS POR IDENTIFICAR,account.data_account_type_current_liabilities,ec_chart_template,,
-202,False,True,202,PASIVO NO CORRIENTE,account.data_account_type_vista,ec_chart_template,,
-20201,False,False,20201,PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIERO,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20202,False,True,20202,CUENTAS Y DOCUMENTOS POR PAGAR,account.data_account_type_vista,ec_chart_template,,
-2020201,False,False,2020201,CUENTAS Y DOCUMENTOS POR PAGAR LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-2020202,False,False,2020202,CUENTAS Y DOCUMENTOS POR PAGAR DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20203,False,True,20203,OBLIGACIONES CON INSTITUCIONES FINANCIERAS,account.data_account_type_vista,ec_chart_template,,
-2020301,False,False,2020301,OBLIGACIONES CON INSTITUCIONES FINANCIERAS LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-2020302,False,False,2020302,OBLIGACIONES CON INSTITUCIONES FINANCIERAS DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20204,False,True,20204,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS,account.data_account_type_vista,ec_chart_template,,
-2020401,False,False,2020401,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-2020402,False,False,2020402,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20205,False,False,20205,OBLIGACIONES EMITIDAS,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20206,True,False,20206,ANTICIPOS DE CLIENTES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20207,False,True,20207,PROVISIONES POR BENEFICIOS A EMPLEADOS,account.data_account_type_vista,ec_chart_template,,
-2020701,False,False,2020701,JUBILACIÓN PATRONAL,account.data_account_type_non_current_liabilities,ec_chart_template,,
-2020702,False,False,2020702,OTROS BENEFICIOS NO CORRIENTES PARA LOS EMPLEADOS,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20208,False,False,20208,OTRAS PROVISIONES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20209,False,True,20209,PASIVO DIFERIDO,account.data_account_type_vista,ec_chart_template,,
-2020901,False,False,2020901,INGRESOS DIFERIDOS,account.data_account_type_non_current_liabilities,ec_chart_template,,
-2020902,False,False,2020902,PASIVOS POR IMPUESTOS DIFERIDOS,account.data_account_type_non_current_liabilities,ec_chart_template,,
-20210,False,False,20210,OTROS PASIVOS NO CORRIENTES,account.data_account_type_non_current_liabilities,ec_chart_template,,
-3,False,True,3,PATRIMONIO NETO,account.data_account_type_vista,ec_chart_template,,
-301,False,True,301,CAPITAL,account.data_account_type_vista,ec_chart_template,,
-30101,False,False,30101,CAPITAL SUSCRITO o ASIGNADO,account.data_account_type_equity,ec_chart_template,,
-30102,False,False,30102,"(-) CAPITAL SUSCRITO NO PAGADO, ACCIONES EN TESORERÍA",account.data_account_type_equity,ec_chart_template,,
-302,False,False,302,APORTES DE SOCIOS O ACCIONISTAS PARA FUTURA CAPITALIZACIÓN,account.data_account_type_equity,ec_chart_template,,
-303,False,False,303,PRIMA POR EMISION PRIMARIA DE ACCIONES,account.data_account_type_equity,ec_chart_template,,
-304,False,True,304,RESERVAS,account.data_account_type_vista,ec_chart_template,,
-30401,False,False,30401,RESERVA LEGAL,account.data_account_type_equity,ec_chart_template,,
-30402,False,False,30402,RESERVAS FACULTATIVA Y ESTATUTARIA,account.data_account_type_equity,ec_chart_template,,
-305,False,True,305,OTROS RESULTADOS INTEGRALES,account.data_account_type_vista,ec_chart_template,,
-30501,False,False,30501,SUPERAVIT DE ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_equity,ec_chart_template,,
-30502,False,False,30502,"SUPERAVIT POR REVALUACIÓN DE PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_equity,ec_chart_template,,
-30503,False,False,30503,SUPERAVIT POR REVALUACION DE ACTIVOS INTANGIBLES,account.data_account_type_equity,ec_chart_template,,
-30504,False,False,30504,OTROS SUPERAVIT POR REVALUACION,account.data_account_type_equity,ec_chart_template,,
-306,False,True,306,RESULTADOS ACUMULADOS,account.data_account_type_vista,ec_chart_template,,
-30601,False,False,30601,GANACIAS ACUMULADAS,account.data_account_type_equity,ec_chart_template,,
-30602,False,False,30602,(-) PÉRDIDAS ACUMULADAS,account.data_account_type_equity,ec_chart_template,,
-30603,False,False,30603,RESULTADOS ACUMULADOS PROVENIENTES DE LA ADOPCIÓN POR PRIMERA VEZ DE LAS NIIF,account.data_account_type_equity,ec_chart_template,,
-30604,False,False,30604,RESERVA DE CAPITAL,account.data_account_type_equity,ec_chart_template,,
-30605,False,False,30605,RESERVA POR DONACIONES,account.data_account_type_equity,ec_chart_template,,
-30606,False,False,30606,RESERVA POR VALUACIÓN,account.data_account_type_equity,ec_chart_template,,
-30607,False,False,30607,SUPERÁVIT POR REVALUACIÓN DE INVERSIONES,account.data_account_type_equity,ec_chart_template,,
-307,False,True,307,RESULTADOS DEL EJERCICIO,account.data_account_type_vista,ec_chart_template,,
-30701,False,False,30701,GANANCIA NETA DEL PERIODO,account.data_account_type_equity,ec_chart_template,,
-30702,False,False,30702,(-) PÉRDIDA NETA DEL PERIODO,account.data_account_type_equity,ec_chart_template,,
-31,False,False,31,PARTICIPACIÓN NO CONTROLADORA,account.data_account_type_equity,ec_chart_template,,
-4,False,True,4,INGRESOS,account.data_account_type_vista,ec_chart_template,,
-41,False,True,41,INGRESOS DE ACTIVIDADES ORDINARIAS,account.data_account_type_vista,ec_chart_template,,
-4101,False,False,4101,VENTA DE BIENES,account.data_account_type_revenue,ec_chart_template,,
-4102,False,False,4102,PRESTACIÓN DE SERVICIOS,account.data_account_type_revenue,ec_chart_template,,
-4103,False,False,4103,CONTRATOS DE CONSTRUCCIÓN,account.data_account_type_revenue,ec_chart_template,,
-4104,False,False,4104,SUBVENCIONES DEL GOBIERNO,account.data_account_type_revenue,ec_chart_template,,
-4105,False,False,4105,REGALÍAS,account.data_account_type_revenue,ec_chart_template,,
-4106,False,True,4106,INTERESES,account.data_account_type_vista,ec_chart_template,,
-410601,False,False,410601,INTERESES GENERADOS POR VENTAS A CRÉDITO,account.data_account_type_revenue,ec_chart_template,,
-410602,False,False,410602,OTROS INTERESES GENERADOS,account.data_account_type_revenue,ec_chart_template,,
-4107,False,False,4107,DIVIDENDOS,account.data_account_type_revenue,ec_chart_template,,
-4108,False,False,4108,GANANCIA POR MEDICIÓN A VALOR RAZONABLE DE ACTIVOS BIOLÓGICOS,account.data_account_type_revenue,ec_chart_template,,
-4109,False,False,4109,OTROS INGRESOS DE ACTIVIDADES ORDINARIAS,account.data_account_type_revenue,ec_chart_template,,
-4110,False,False,4110,(-) DESCUENTO EN VENTAS,account.data_account_type_revenue,ec_chart_template,,
-4111,False,False,4111,(-) DEVOLUCIONES EN VENTAS,account.data_account_type_revenue,ec_chart_template,,
-4112,False,False,4112,(-) BONIFICACIÓN EN PRODUCTO,account.data_account_type_revenue,ec_chart_template,,
-4113,False,False,4113,(-) OTRAS REBAJAS COMERCIALES,account.data_account_type_revenue,ec_chart_template,,
-42,False,False,42,GANANCIA BRUTA,account.data_account_type_revenue,ec_chart_template,,
-43,False,True,43,OTROS INGRESOS,account.data_account_type_vista,ec_chart_template,,
-4301,False,False,4301,DIVIDENDOS,account.data_account_type_other_income,ec_chart_template,,
-4302,False,False,4302,INTERESES FINANCIEROS,account.data_account_type_other_income,ec_chart_template,,
-4303,False,False,4303,GANANCIA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS,account.data_account_type_other_income,ec_chart_template,,
-4304,False,False,4304,VALUACIÓN DE INSTRUMENTOS FINANCIEROS A VALOR RAZONABLE CON CAMBIO EN RESULTADOS,account.data_account_type_other_income,ec_chart_template,,
-4305,False,True,4305,OTRAS RENTAS,account.data_account_type_vista,ec_chart_template,,
-430501,False,False,430501,INTERESES GANADOS,account.data_account_type_other_income,ec_chart_template,,
-430502,False,False,430502,PROMOCIONES DE PROVEEDORES,account.data_account_type_other_income,ec_chart_template,,
-430503,False,False,430503,GANANCIAS POR REDONDEO,account.data_account_type_other_income,ec_chart_template,,
-430504,False,False,430504,MULTAS EMPLEADOS,account.data_account_type_other_income,ec_chart_template,,
-430505,False,False,430505,OTROS INGRESOS GENERALES,account.data_account_type_other_income,ec_chart_template,,
-430506,False,False,430506,INGRESOS DIFERIDOS,account.data_account_type_other_income,ec_chart_template,,
-5,False,True,5,COSTOS Y GASTOS,account.data_account_type_vista,ec_chart_template,,
-51,False,True,51,COSTO DE VENTAS Y PRODUCCIÓN,account.data_account_type_vista,ec_chart_template,,
-5101,False,True,5101,MATERIALES UTILIZADOS O PRODUCTOS VENDIDOS,account.data_account_type_vista,ec_chart_template,,
-510101,False,False,510101,(+) INVENTARIO INICIAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template,,
-510102,False,False,510102,(+) COMPRAS NETAS LOCALES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template,,
-510103,False,False,510103,(+) IMPORTACIONES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template,,
-510104,False,False,510104,(-) INVENTARIO FINAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template,,
-510105,False,False,510105,(+) INVENTARIO INICIAL DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template,,
-510106,False,False,510106,(+) COMPRAS NETAS LOCALES DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template,,
-510107,False,False,510107,(+) IMPORTACIONES DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template,,
-510108,False,False,510108,(-) INVENTARIO FINAL DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template,,
-510109,False,False,510109,(+) INVENTARIO INICIAL DE PRODUCTOS EN PROCESO,account.data_account_type_direct_costs,ec_chart_template,,
-510110,False,False,510110,(-) INVENTARIO FINAL DE PRODUCTOS EN PROCESO,account.data_account_type_direct_costs,ec_chart_template,,
-510111,False,False,510111,(+) INVENTARIO INICIAL PRODUCTOS TERMINADOS,account.data_account_type_direct_costs,ec_chart_template,,
-510112,False,False,510112,(-) INVENTARIO FINAL DE PRODUCTOS TERMINADOS,account.data_account_type_direct_costs,ec_chart_template,,
-5102,False,True,5102,(+) MANO DE OBRA DIRECTA,account.data_account_type_vista,ec_chart_template,,
-510201,False,False,510201,SUELDOS Y BENEFICIOS SOCIALES,account.data_account_type_direct_costs,ec_chart_template,,
-510202,False,False,510202,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_direct_costs,ec_chart_template,,
-5103,False,True,5103,(+) MANO DE OBRA INDIRECTA,account.data_account_type_vista,ec_chart_template,,
-510301,False,True,510301,SUELDOS Y BENEFICIOS SOCIALES,account.data_account_type_vista,ec_chart_template,,
-51030101,False,False,51030101,SUELDO BÁSICO,account.data_account_type_direct_costs,ec_chart_template,,
-51030102,False,False,51030102,DECIMO TERCER SUELDO,account.data_account_type_direct_costs,ec_chart_template,,
-51030103,False,False,51030103,DECIMO CUARTO SUELDO,account.data_account_type_direct_costs,ec_chart_template,,
-51030104,False,False,51030104,FONDOS DE RESERVA,account.data_account_type_direct_costs,ec_chart_template,,
-51030105,False,False,51030105,VACACIONES,account.data_account_type_direct_costs,ec_chart_template,,
-51030106,False,False,51030106,DESAHUCIO,account.data_account_type_direct_costs,ec_chart_template,,
-510302,False,False,510302,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_direct_costs,ec_chart_template,,
-5104,False,True,5104,(+) OTROS COSTOS INDIRECTOS DE FABRICACION,account.data_account_type_vista,ec_chart_template,,
-510401,False,False,510401,"DEPRECIACIÓN PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_direct_costs,ec_chart_template,,
-510402,False,False,510402,DETERIORO O PÉRDIDAS DE ACTIVOS BIOLÓGICOS,account.data_account_type_direct_costs,ec_chart_template,,
-510403,False,False,510403,"DETERIORO DE PROPIEDAD, PLANTA Y EQUIPO",account.data_account_type_direct_costs,ec_chart_template,,
-510404,False,False,510404,EFECTO VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_direct_costs,ec_chart_template,,
-510405,False,False,510405,GASTO POR GARANTÍAS EN VENTA DE PRODUCTOS O SERVICIOS,account.data_account_type_direct_costs,ec_chart_template,,
-510406,False,False,510406,MANTENIMIENTO Y REPARACIONES,account.data_account_type_direct_costs,ec_chart_template,,
-510407,False,True,510407,SUMINISTROS MATERIALES Y REPUESTOS,account.data_account_type_vista,ec_chart_template,,
-51040701,False,False,51040701,SUMINISTROS DE OFICINA,account.data_account_type_direct_costs,ec_chart_template,,
-51040702,False,False,51040702,SUMINISTROS DE LIMPIEZA,account.data_account_type_direct_costs,ec_chart_template,,
-51040703,False,False,51040703,REPUESTOS DE VEHÍCULOS,account.data_account_type_direct_costs,ec_chart_template,,
-510408,False,True,510408,OTROS COSTOS DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template,,
-51040801,False,False,51040801,COSTO DE VENTAS,account.data_account_type_expenses,ec_chart_template,,
-52,False,True,52,GASTOS,account.data_account_type_vista,ec_chart_template,,
-5201,False,True,5201,GASTOS DE VENTA,account.data_account_type_vista,ec_chart_template,,
-520101,False,True,520101,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",account.data_account_type_vista,ec_chart_template,,
-52010101,False,False,52010101,SUELDOS Y SALARIOS,account.data_account_type_expenses,ec_chart_template,,
-52010102,False,False,52010102,HORAS EXTRAS,account.data_account_type_expenses,ec_chart_template,,
-52010103,False,False,52010103,COMISIONES,account.data_account_type_expenses,ec_chart_template,,
-52010104,False,False,52010104,BONIFICACIONES,account.data_account_type_expenses,ec_chart_template,,
-520102,False,True,520102,APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva),account.data_account_type_vista,ec_chart_template,,
-52010201,False,False,52010201,APORTE PATRONAL,account.data_account_type_expenses,ec_chart_template,,
-52010202,False,False,52010202,IECE,account.data_account_type_expenses,ec_chart_template,,
-52010203,False,False,52010203,SECAP,account.data_account_type_expenses,ec_chart_template,,
-520103,False,True,520103,BENEFICIOS SOCIALES E INDEMNIZACIONES,account.data_account_type_vista,ec_chart_template,,
-52010301,False,False,52010301,DECIMO TERCER SUELDO,account.data_account_type_expenses,ec_chart_template,,
-52010302,False,False,52010302,DECIMO CUARTO SUELDO,account.data_account_type_expenses,ec_chart_template,,
-52010303,False,False,52010303,FONDOS DE RESERVA,account.data_account_type_expenses,ec_chart_template,,
-52010304,False,False,52010304,VACACIONES,account.data_account_type_expenses,ec_chart_template,,
-52010305,False,False,52010305,DESAHUCIO,account.data_account_type_expenses,ec_chart_template,,
-520104,False,False,520104,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_expenses,ec_chart_template,,
-520105,False,False,520105,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",account.data_account_type_expenses,ec_chart_template,,
-520106,False,False,520106,REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS,account.data_account_type_expenses,ec_chart_template,,
-520107,False,False,520107,HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES,account.data_account_type_expenses,ec_chart_template,,
-520108,False,True,520108,MANTENIMIENTO Y REPARACIONES,account.data_account_type_vista,ec_chart_template,,
-52010801,False,False,52010801,MANTENIMIENTO DE LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template,,
-52010802,False,False,52010802,MANTENIMIENTO DE VEHÍCULOS,account.data_account_type_expenses,ec_chart_template,,
-520109,False,True,520109,ARRENDAMIENTO OPERATIVO,account.data_account_type_vista,ec_chart_template,,
-52010901,False,False,52010901,ARRIENDO LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template,,
-520110,False,False,520110,COMISIONES,account.data_account_type_expenses,ec_chart_template,,
-520111,False,False,520111,PROMOCIÓN Y PUBLICIDAD,account.data_account_type_expenses,ec_chart_template,,
-520112,False,False,520112,COMBUSTIBLES,account.data_account_type_expenses,ec_chart_template,,
-520113,False,False,520113,LUBRICANTES,account.data_account_type_expenses,ec_chart_template,,
-520114,False,False,520114,SEGUROS Y REASEGUROS (primas y cesiones),account.data_account_type_expenses,ec_chart_template,,
-520115,False,False,520115,TRANSPORTE,account.data_account_type_expenses,ec_chart_template,,
-520116,False,False,520116,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",account.data_account_type_expenses,ec_chart_template,,
-520117,False,False,520117,GASTOS DE VIAJE,account.data_account_type_expenses,ec_chart_template,,
-520118,False,True,520118,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",account.data_account_type_vista,ec_chart_template,,
-52011801,False,False,52011801,AGUA,account.data_account_type_expenses,ec_chart_template,,
-52011802,False,False,52011802,ENERGÍA ELÉCTRICA,account.data_account_type_expenses,ec_chart_template,,
-52011803,False,True,52011803,TELECOMUNICACIONES,account.data_account_type_vista,ec_chart_template,,
-5201180301,False,False,5201180301,TELÉFONO,account.data_account_type_expenses,ec_chart_template,,
-5201180302,False,False,5201180302,PLAN CELULAR,account.data_account_type_expenses,ec_chart_template,,
-5201180303,False,False,5201180303,INTERNET,account.data_account_type_expenses,ec_chart_template,,
-5201180304,False,False,5201180304,PLAN DE TRANSMISIÓN DE DATOS,account.data_account_type_expenses,ec_chart_template,,
-520119,False,False,520119,NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES,account.data_account_type_expenses,ec_chart_template,,
-520121,False,True,520121,DEPRECIACIONES,account.data_account_type_vista,ec_chart_template,,
-52012101,False,False,52012101,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template,,
-52012102,False,False,52012102,PROPIEDADES DE INVERSIÓN,account.data_account_type_depreciation,ec_chart_template,,
-520122,False,True,520122,AMORTIZACIONES,account.data_account_type_vista,ec_chart_template,,
-52012201,False,False,52012201,INTANGIBLES,account.data_account_type_depreciation,ec_chart_template,,
-52012202,False,False,52012202,OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template,,
-520123,False,True,520123,GASTO DETERIORO,account.data_account_type_vista,ec_chart_template,,
-52012301,False,False,52012301,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template,,
-52012306,False,False,52012306,OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template,,
-520124,False,True,520124,GASTOS POR CANTIDADES ANORMALES DE UTILIZACIÓN EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template,,
-52012401,False,False,52012401,MANO DE OBRA,account.data_account_type_expenses,ec_chart_template,,
-52012402,False,False,52012402,MATERIALES,account.data_account_type_expenses,ec_chart_template,,
-52012403,False,False,52012403,COSTOS DE PRODUCCIÓN,account.data_account_type_expenses,ec_chart_template,,
-520125,False,False,520125,GASTO POR REESTRUCTURACIÓN,account.data_account_type_expenses,ec_chart_template,,
-520126,False,False,520126,VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_expenses,ec_chart_template,,
-520128,False,False,520128,OTROS GASTOS,account.data_account_type_expenses,ec_chart_template,,
-5202,False,True,5202,GASTOS ADMINISTRATIVOS,account.data_account_type_vista,ec_chart_template,,
-520201,False,True,520201,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",account.data_account_type_vista,ec_chart_template,,
-52020101,False,False,52020101,SUELDOS Y SALARIOS,account.data_account_type_expenses,ec_chart_template,,
-52020102,False,False,52020102,HORAS EXTRAS,account.data_account_type_expenses,ec_chart_template,,
-52020103,False,False,52020103,COMISIONES,account.data_account_type_expenses,ec_chart_template,,
-52020104,False,False,52020104,BONIFICACIONES,account.data_account_type_expenses,ec_chart_template,,
-520202,False,True,520202,APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva),account.data_account_type_vista,ec_chart_template,,
-52020201,False,False,52020201,APORTE PATRONAL,account.data_account_type_expenses,ec_chart_template,,
-52020202,False,False,52020202,IECE,account.data_account_type_expenses,ec_chart_template,,
-52020203,False,False,52020203,SECAP,account.data_account_type_expenses,ec_chart_template,,
-520203,False,True,520203,BENEFICIOS SOCIALES E INDEMNIZACIONES,account.data_account_type_vista,ec_chart_template,,
-52020301,False,False,52020301,DECIMO TERCER SUELDO,account.data_account_type_expenses,ec_chart_template,,
-52020302,False,False,52020302,DECIMO CUARTO SUELDO,account.data_account_type_expenses,ec_chart_template,,
-52020303,False,False,52020303,FONDOS DE RESERVA,account.data_account_type_expenses,ec_chart_template,,
-52020304,False,False,52020304,VACACIONES,account.data_account_type_expenses,ec_chart_template,,
-52020305,False,False,52020305,DESAHUCIO,account.data_account_type_expenses,ec_chart_template,,
-520204,False,False,520204,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_expenses,ec_chart_template,,
-520205,False,True,520205,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",account.data_account_type_vista,ec_chart_template,,
-52020501,False,False,52020501,HONORARIOS PROFESIONALES,account.data_account_type_expenses,ec_chart_template,,
-520206,False,False,520206,REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS,account.data_account_type_expenses,ec_chart_template,,
-520207,False,False,520207,HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES,account.data_account_type_expenses,ec_chart_template,,
-520208,False,True,520208,MANTENIMIENTO Y REPARACIONES,account.data_account_type_vista,ec_chart_template,,
-52020801,False,False,52020801,MANTENIMIENTO DE LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template,,
-52020802,False,False,52020802,MANTENIMIENTO DE VEHÍCULOS,account.data_account_type_expenses,ec_chart_template,,
-520209,False,False,520209,ARRENDAMIENTO OPERATIVO,account.data_account_type_expenses,ec_chart_template,,
-520210,False,False,520210,COMISIONES,account.data_account_type_expenses,ec_chart_template,,
-520212,False,False,520212,COMBUSTIBLES,account.data_account_type_expenses,ec_chart_template,,
-520213,False,False,520213,LUBRICANTES,account.data_account_type_expenses,ec_chart_template,,
-520214,False,False,520214,SEGUROS Y REASEGUROS (primas y cesiones),account.data_account_type_expenses,ec_chart_template,,
-520215,False,False,520215,TRANSPORTE,account.data_account_type_expenses,ec_chart_template,,
-520216,False,False,520216,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",account.data_account_type_expenses,ec_chart_template,,
-520217,False,False,520217,GASTOS DE VIAJE,account.data_account_type_expenses,ec_chart_template,,
-520218,False,True,520218,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",account.data_account_type_vista,ec_chart_template,,
-52021801,False,False,52021801,AGUA,account.data_account_type_expenses,ec_chart_template,,
-52021802,False,False,52021802,ENERGÍA ELÉCTRICA,account.data_account_type_expenses,ec_chart_template,,
-52021803,False,True,52021803,TELECOMUNICACIONES,account.data_account_type_vista,ec_chart_template,,
-5202180301,False,False,5202180301,TELÉFONO,account.data_account_type_expenses,ec_chart_template,,
-5202180302,False,False,5202180302,PLAN CELULAR,account.data_account_type_expenses,ec_chart_template,,
-5202180303,False,False,5202180303,INTERNET,account.data_account_type_expenses,ec_chart_template,,
-5202180304,False,False,5202180304,PLAN DE TRANSMISIÓN DE DATOS,account.data_account_type_expenses,ec_chart_template,,
-520219,False,False,520219,NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES,account.data_account_type_expenses,ec_chart_template,,
-520220,False,True,520220,"IMPUESTOS, CONTRIBUCIONES Y OTROS",account.data_account_type_vista,ec_chart_template,,
-52022001,False,False,52022001,IMPUESTOS CONTRIBUCIONES Y MULTAS,account.data_account_type_expenses,ec_chart_template,,
-52022003,False,False,52022003,IMPUESTO A LA RENTA,account.data_account_type_expenses,ec_chart_template,,
-52022004,False,False,52022004,IMPUESTO PATENTE MUNICIPAL,account.data_account_type_expenses,ec_chart_template,,
-52022005,False,False,52022005,IMPUESTO 1.5 POR MIL ACTIVOS TOTALES,account.data_account_type_expenses,ec_chart_template,,
-52022006,False,False,52022006,IMPUESTO FISCAL MATRICULACION,account.data_account_type_expenses,ec_chart_template,,
-52022007,False,False,52022007,IMPUESTO AL RODAJE,account.data_account_type_expenses,ec_chart_template,,
-52022008,False,False,52022008,TASA DE LA DIRECCION TRANSITO,account.data_account_type_expenses,ec_chart_template,,
-52022009,False,False,52022009,PERMISO CUERPO DE BOMBEROS,account.data_account_type_expenses,ec_chart_template,,
-52022010,False,False,52022010,MULTA PRESTAMOS,account.data_account_type_expenses,ec_chart_template,,
-52022011,False,False,52022011,CONTRIBUCIONES,account.data_account_type_expenses,ec_chart_template,,
-52022012,False,False,52022012,CONTRIBUCION SUPERINTENDENCIA DE COMPAÑIAS,account.data_account_type_expenses,ec_chart_template,,
-52022013,False,False,52022013,CONTRIBUCION CAMARA DE COMERCIO,account.data_account_type_expenses,ec_chart_template,,
-52022014,False,False,52022014,CONTRIBUCION SOLCA 0.5%,account.data_account_type_expenses,ec_chart_template,,
-52022016,False,False,52022016,MULTAS FISCALES,account.data_account_type_expenses,ec_chart_template,,
-52022017,False,False,52022017,MULTAS MUNICIPALES,account.data_account_type_expenses,ec_chart_template,,
-52022018,False,False,52022018,MULTAS PATRONALES,account.data_account_type_expenses,ec_chart_template,,
-520221,False,True,520221,DEPRECIACIONES,account.data_account_type_vista,ec_chart_template,,
-52022101,False,False,52022101,"DEPRECIACIONES PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template,,
-52022102,False,False,52022102,DEPRECIACIONES PROPIEDADES DE INVERSIÓN,account.data_account_type_depreciation,ec_chart_template,,
-520222,False,True,520222,AMORTIZACIONES,account.data_account_type_vista,ec_chart_template,,
-52022201,False,False,52022201,AMORTIZACIONES INTANGIBLES,account.data_account_type_expenses,ec_chart_template,,
-52022202,False,False,52022202,AMORTIZACIONES OTROS ACTIVOS,account.data_account_type_expenses,ec_chart_template,,
-520223,False,True,520223,GASTO DETERIORO,account.data_account_type_vista,ec_chart_template,,
-52022301,False,False,52022301,"GASTO DETERIORO PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template,,
-52022302,False,False,52022302,GASTO DETERIORO INVENTARIOS,account.data_account_type_depreciation,ec_chart_template,,
-52022303,False,False,52022303,GASTO DETERIORO INSTRUMENTOS FINANCIEROS,account.data_account_type_depreciation,ec_chart_template,,
-52022304,False,False,52022304,GASTO DETERIORO INTANGIBLES,account.data_account_type_depreciation,ec_chart_template,,
-52022305,False,False,52022305,GASTO DETERIORO CUENTAS POR COBRAR,account.data_account_type_depreciation,ec_chart_template,,
-52022306,False,False,52022306,GASTO DETERIORO OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template,,
-520224,False,True,520224,GASTOS POR CANTIDADES ANORMALES DE UTILIZACION EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template,,
-52022401,False,False,52022401,MANO DE OBRA,account.data_account_type_expenses,ec_chart_template,,
-52022402,False,False,52022402,MATERIALES,account.data_account_type_expenses,ec_chart_template,,
-52022403,False,False,52022403,COSTOS DE PRODUCCIÓN,account.data_account_type_expenses,ec_chart_template,,
-520225,False,False,520225,GASTO POR REESTRUCTURACIÓN,account.data_account_type_expenses,ec_chart_template,,
-520226,False,False,520226,VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_expenses,ec_chart_template,,
-520227,False,False,520227,GASTO IMPUESTO A LA RENTA (ACTIVOS Y PASIVOS DIFERIDOS),account.data_account_type_expenses,ec_chart_template,,
-520228,False,False,520228,OTROS GASTOS,account.data_account_type_expenses,ec_chart_template,,
-5203,False,True,5203,GASTOS FINANCIEROS,account.data_account_type_vista,ec_chart_template,,
-520301,False,False,520301,INTERESES,account.data_account_type_expenses,ec_chart_template,,
-520302,False,False,520302,COMISIONES,account.data_account_type_expenses,ec_chart_template,,
-520303,False,False,520303,GASTOS DE FINANCIAMIENTO DE ACTIVOS,account.data_account_type_expenses,ec_chart_template,,
-520304,False,False,520304,DIFERENCIA EN CAMBIO,account.data_account_type_expenses,ec_chart_template,,
-520305,False,False,520305,OTROS GASTOS FINANCIEROS,account.data_account_type_expenses,ec_chart_template,,
-5204,False,True,5204,OTROS GASTOS,account.data_account_type_vista,ec_chart_template,,
-520401,False,False,520401,PERDIDA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS,account.data_account_type_expenses,ec_chart_template,,
-520402,False,True,520402,OTROS,account.data_account_type_vista,ec_chart_template,,
-52040201,False,False,52040201,DESADUANIZACION DE MERCADERIAS,account.data_account_type_expenses,ec_chart_template,,
-52040202,False,False,52040202,SALVAGUARDIAS EN IMPORTACIONES,account.data_account_type_expenses,ec_chart_template,,
-52040203,False,False,52040203,FLETES DE MERCADERIAS,account.data_account_type_expenses,ec_chart_template,,
-52040204,False,False,52040204,IMPUESTOS Y COMISIONES POR GIROS AL EXTERIOR,account.data_account_type_expenses,ec_chart_template,,
-52040205,False,False,52040205,COSTO DE VENTAS DIFERIDO,account.data_account_type_expenses,ec_chart_template,,
-52040206,False,False,52040206,UNIFORMES,account.data_account_type_expenses,ec_chart_template,,
-52040207,False,False,52040207,ALIMENTOS Y REFIGERIOS,account.data_account_type_expenses,ec_chart_template,,
-52040208,False,False,52040208,GASTOS MEDICOS SEGURIDAD Y SALUD,account.data_account_type_expenses,ec_chart_template,,
-52040209,False,False,52040209,SERVICIO DE MONITOREO Y SEGURIDAD,account.data_account_type_expenses,ec_chart_template,,
-52040210,False,False,52040210,CORREOS Y  CURIERS,account.data_account_type_expenses,ec_chart_template,,
-52040211,False,False,52040211,SERVICIOS DE POS TARJETAS DE CREDITO,account.data_account_type_expenses,ec_chart_template,,
-52040212,False,False,52040212,GARAGE,account.data_account_type_expenses,ec_chart_template,,
-52040213,False,False,52040213,SERVICIO CUSTODIA DOC Y FACT EN LINEA,account.data_account_type_expenses,ec_chart_template,,
-52040214,False,False,52040214,SERVICIO DE CORREO ELECTRONICO,account.data_account_type_expenses,ec_chart_template,,
-52040215,False,False,52040215,COMPRA Y RENOVACIÓN DE CERTIFICADO DIGITAL,account.data_account_type_expenses,ec_chart_template,,
-52040216,False,False,52040216,COMPRA Y RENOVACIÓN DE HOSTING,account.data_account_type_expenses,ec_chart_template,,
-52040217,False,False,52040217,COMPRA Y RENOVACIÓN DE DOMINIO,account.data_account_type_expenses,ec_chart_template,,
+id,reconcile,code,name,user_type_id/id,chart_template_id:id
+1,False,1,ACTIVO,account.data_account_type_vista,ec_chart_template
+101,False,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
+10101,False,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template
+1010101,False,1010101,DISPONIBLE,account.data_account_type_vista,ec_chart_template
+101010101,False,101010101,CAJA GENERAL,account.data_account_type_vista,ec_chart_template
+101010102,False,101010102,CAJA CHICA,account.data_account_type_vista,ec_chart_template
+101010103,False,101010103,EFECTOS DE COBRO INMEDIATO (CHEQUES),account.data_account_type_vista,ec_chart_template
+101010104,False,101010104,EFECTOS DE COBRO INMEDIATO (TARJETAS DE CRÉDITO),account.data_account_type_vista,ec_chart_template
+101010105,False,101010105,BANCOS,account.data_account_type_vista,ec_chart_template
+101010106,False,101010106,FONDO ROTATIVO,account.data_account_type_vista,ec_chart_template
+101010107,False,101010107,INVERSIONES TEMPORALES,account.data_account_type_vista,ec_chart_template
+10102,False,10102,ACTIVOS FINANCIEROS,account.data_account_type_vista,ec_chart_template
+1010201,False,1010201,ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS,account.data_account_type_current_assets,ec_chart_template
+1010202,False,1010202,ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_current_assets,ec_chart_template
+1010203,False,1010203,ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_current_assets,ec_chart_template
+1010204,False,1010204,(-) PROVISION POR DETERIORO,account.data_account_type_current_assets,ec_chart_template
+1010205,False,1010205,DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES NO RELACIONADOS,account.data_account_type_vista,ec_chart_template
+101020501,True,101020501,DE ACTIVIDADES ORDINARIAS QUE GENEREN INTERESES,account.data_account_type_vista,ec_chart_template
+10102050101,True,10102050101,CARTERA DE CLIENTES NO RELACIONADOS,account.data_account_type_receivable,ec_chart_template
+10102050102,True,10102050102,CHEQUES DEVUELTOS / PROTESTADOS,account.data_account_type_receivable,ec_chart_template
+101020502,True,101020502,DE ACTIVIDADES ORDINARIAS QUE NO GENEREN INTERESES,account.data_account_type_vista,ec_chart_template
+10102050201,True,10102050201,CARTERA DE CLIENTES NO RELACIONADOS,account.data_account_type_receivable,ec_chart_template
+10102050202,True,10102050202,CHEQUES DEVUELTOS / PROTESTADOS,account.data_account_type_receivable,ec_chart_template
+1010206,True,1010206,DOCUMENTOS Y CUENTAS POR COBRAR CLIENTES RELACIONADOS,account.data_account_type_receivable,ec_chart_template
+1010207,True,1010207,OTRAS CUENTAS POR COBRAR RELACIONADAS,account.data_account_type_receivable,ec_chart_template
+1010208,True,1010208,OTRAS CUENTAS POR COBRAR,account.data_account_type_vista,ec_chart_template
+101020801,True,101020801, RETENCIONES POR COBRAR,account.data_account_type_receivable,ec_chart_template
+101020802,True,101020802,PRESTAMOS A EMPLEADOS,account.data_account_type_receivable,ec_chart_template
+101020803,True,101020803,CUENTAS POR COBRAR VARIAS,account.data_account_type_receivable,ec_chart_template
+101020804,True,101020804,SERVICIOS Y OTROS PAGOS ANTICIPADOS,account.data_account_type_receivable,ec_chart_template
+101020805,True,101020805,ANTICIPO SUELDOS EMPLEADOS,account.data_account_type_receivable,ec_chart_template
+101020806,True,101020806,ANTICIPO DE VIATICOS,account.data_account_type_receivable,ec_chart_template
+1010209,False,1010209,(-) PROVISIÓN CUENTAS INCOBRABLES Y DETERIORO,account.data_account_type_current_assets,ec_chart_template
+10103,False,10103,INVENTARIOS,account.data_account_type_vista,ec_chart_template
+1010301,False,1010301,INVENTARIOS DE MATERIA PRIMA,account.data_account_type_current_assets,ec_chart_template
+1010302,False,1010302,INVENTARIOS DE PRODUCTOS EN PROCESO,account.data_account_type_current_assets,ec_chart_template
+1010303,False,1010303,INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_current_assets,ec_chart_template
+1010304,False,1010304,INVENTARIOS DE SUMINISTROS O MATERIALES A SER CONSUMIDOS EN LA PRESTACIÓN DE SERVICIO,account.data_account_type_current_assets,ec_chart_template
+1010305,False,1010305,INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - PRODUCIDO POR LA COMPAÑÍA,account.data_account_type_current_assets,ec_chart_template
+1010306,False,1010306,INVENTARIOS DE PRODUCTOS TERMINADOS Y MERCADERIA EN ALMACÉN - COMPRADO DE TERCEROS,account.data_account_type_current_assets,ec_chart_template
+1010307,False,1010307,MERCADERÍAS EN TRÁNSITO,account.data_account_type_current_assets,ec_chart_template
+1010308,False,1010308,OBRAS EN CONSTRUCCION,account.data_account_type_current_assets,ec_chart_template
+1010309,False,1010309,OBRAS TERMINADAS,account.data_account_type_current_assets,ec_chart_template
+1010310,False,1010310,MATERIALES O BIENES PARA LA CONSTRUCCIÓN,account.data_account_type_current_assets,ec_chart_template
+1010311,False,1010311,"INVENTARIOS REPUESTOS, HERRAMIENTAS Y ACCESORIOS",account.data_account_type_current_assets,ec_chart_template
+1010312,False,1010312,OTROS INVENTARIOS,account.data_account_type_current_assets,ec_chart_template
+1010313,False,1010313,(-) PROVISIÓN POR VALOR NETO DE REALIZACIÓN Y OTRAS PÉRDIDAS EN EL INVENTARIO,account.data_account_type_current_assets,ec_chart_template
+10104,False,10104,SERVICIOS Y OTROS PAGOS ANTICIPADOS,account.data_account_type_vista,ec_chart_template
+1010401,True,1010401,SEGUROS PAGADOS POR ANTICIPADO,account.data_account_type_prepayments,ec_chart_template
+1010402,True,1010402,ARRIENDOS PAGADOS POR ANTICIPADO,account.data_account_type_prepayments,ec_chart_template
+1010403,True,1010403,ANTICIPOS A PROVEEDORES,account.data_account_type_prepayments,ec_chart_template
+1010404,True,1010404,OTROS ANTICIPOS ENTREGADOS,account.data_account_type_prepayments,ec_chart_template
+10105,False,10105,ACTIVOS POR IMPUESTOS CORRIENTES,account.data_account_type_vista,ec_chart_template
+1010501,False,1010501,CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA (IVA),account.data_account_type_vista,ec_chart_template
+101050101,False,101050101,ANTICIPO RETENCION IVA 10%,account.data_account_type_non_current_assets,ec_chart_template
+101050102,False,101050102,ANTICIPO RETENCION IVA 20%,account.data_account_type_non_current_assets,ec_chart_template
+101050103,False,101050103,ANTICIPO RETENCION IVA 30%,account.data_account_type_non_current_assets,ec_chart_template
+101050104,False,101050104,ANTICIPO RETENCION IVA 70%,account.data_account_type_non_current_assets,ec_chart_template
+101050105,False,101050105,ANTICIPO RETENCION IVA 100%,account.data_account_type_non_current_assets,ec_chart_template
+1010502,False,1010502,CRÉDITO TRIBUTARIO A FAVOR DE LA EMPRESA ( I. R.),account.data_account_type_vista,ec_chart_template
+101050201,False,101050201,ANTICIPO RETENCION EN LA FUENTE 1%,account.data_account_type_non_current_assets,ec_chart_template
+101050202,False,101050202,ANTICIPO RETENCION EN LA FUENTE 2%,account.data_account_type_non_current_assets,ec_chart_template
+101050203,False,101050203,ANTICIPO RETENCION EN LA FUENTE 8%,account.data_account_type_non_current_assets,ec_chart_template
+101050204,False,101050204,ANTICIPO RETENCION EN LA FUENTE 10%,account.data_account_type_non_current_assets,ec_chart_template
+1010503,False,1010503,ANTICIPO DE IMPUESTO A LA RENTA,account.data_account_type_non_current_assets,ec_chart_template
+10106,False,10106,ACTIVOS NO CORRIENTES MANTENIDOS PARA LA VENTA Y OPERACIONES DISCONTINUADAS,account.data_account_type_non_current_assets,ec_chart_template
+10107,False,10107,CONSTRUCCIONES EN PROCESO (NIC 11 Y SECC.23 PYMES),account.data_account_type_fixed_assets,ec_chart_template
+10108,False,10108,OTROS ACTIVOS CORRIENTES,account.data_account_type_non_current_assets,ec_chart_template
+1010801,False,1010801,IMPUESTOS FISCALES,account.data_account_type_vista,ec_chart_template
+101080101,False,101080101,IVA PAGADO (IVA COMPRAS) (529-104),account.data_account_type_vista,ec_chart_template
+10108010101,False,10108010101,IVA ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template
+10108010102,False,10108010102,IVA ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template
+10108010103,False,10108010103,IVA OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO),account.data_account_type_non_current_assets,ec_chart_template
+10108010104,False,10108010104,IVA IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template
+10108010105,False,10108010105,IVA IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template
+10108010106,False,10108010106,IVA IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%,account.data_account_type_non_current_assets,ec_chart_template
+10108010107,False,10108010107,IVA IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%,account.data_account_type_non_current_assets,ec_chart_template
+10108010108,False,10108010108,ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%,account.data_account_type_non_current_assets,ec_chart_template
+10108010109,False,10108010109,ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE ,account.data_account_type_non_current_assets,ec_chart_template
+10108010110,False,10108010110,ADQUISICIONES NO OBJETO DE IVA,account.data_account_type_non_current_assets,ec_chart_template
+10108010111,False,10108010111,ADQUISICIONES EXENTAS DEL PAGO DE IVA,account.data_account_type_non_current_assets,ec_chart_template
+102,False,102,ACTIVO NO CORRIENTE,account.data_account_type_vista,ec_chart_template
+10201,False,10201,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_vista,ec_chart_template
+1020101,False,1020101,TERRENOS,account.data_account_type_fixed_assets,ec_chart_template
+1020102,False,1020102,EDIFICIOS,account.data_account_type_fixed_assets,ec_chart_template
+1020103,False,1020103,CONTRUCCIONES EN CURSO,account.data_account_type_fixed_assets,ec_chart_template
+1020104,False,1020104,INSTALACIONES,account.data_account_type_fixed_assets,ec_chart_template
+1020105,False,1020105,MUEBLES Y ENSERES,account.data_account_type_fixed_assets,ec_chart_template
+1020106,False,1020106,MAQUINARIA Y EQUIPO,account.data_account_type_fixed_assets,ec_chart_template
+1020107,False,1020107,"NAVES, AERONAVES, BARCAZAS Y SIMILARES",account.data_account_type_fixed_assets,ec_chart_template
+1020108,False,1020108,EQUIPO DE COMPUTACIÓN,account.data_account_type_fixed_assets,ec_chart_template
+1020109,False,1020109,"VEHÍCULOS, EQUIPOS DE TRANSPORTE Y EQUIPO CAMINERO MÓVIL",account.data_account_type_fixed_assets,ec_chart_template
+1020110,False,1020110,"OTROS PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template
+1020111,False,1020111,REPUESTOS Y HERRAMIENTAS,account.data_account_type_fixed_assets,ec_chart_template
+1020112,False,1020112,"(-) DEPRECIACIÓN ACUMULADA PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template
+1020113,False,1020113,"(-) DETERIORO  ACUMULADO DE PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_fixed_assets,ec_chart_template
+1020114,False,1020114,ACTIVOS DE EXPLORACION Y EXPLOTACION,account.data_account_type_vista,ec_chart_template
+102011401,False,102011401,ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template
+102011402,False,102011402,(-) AMORTIZACIÓN ACUMULADA DE ACTIVOS DE EXLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template
+102011403,False,102011403,(-) DETERIORO ACUMULADO DE ACTIVOS DE EXPLORACIÓN Y EXPLOTACIÓN,account.data_account_type_fixed_assets,ec_chart_template
+10202,False,10202,PROPIEDADES DE INVERSIÓN,account.data_account_type_vista,ec_chart_template
+1020201,False,1020201,TERRENOS,account.data_account_type_fixed_assets,ec_chart_template
+1020202,False,1020202,EDIFICIOS,account.data_account_type_fixed_assets,ec_chart_template
+1020203,False,1020203,(-) DEPRECIACION ACUMULADA DE PROPIEDADES DE INVERSIÓN,account.data_account_type_fixed_assets,ec_chart_template
+1020204,False,1020204,(-) DETERIORO ACUMULADO DE PROPIEDADES DE INVERSIÓN,account.data_account_type_fixed_assets,ec_chart_template
+10203,False,10203,ACTIVOS BIOLOGICOS,account.data_account_type_vista,ec_chart_template
+1020301,False,1020301,ANIMALES VIVOS EN CRECIMIENTO,account.data_account_type_fixed_assets,ec_chart_template
+1020302,False,1020302,ANIMALES VIVOS EN PRODUCCIÓN,account.data_account_type_fixed_assets,ec_chart_template
+1020303,False,1020303,PLANTAS EN CRECIMIENTO,account.data_account_type_fixed_assets,ec_chart_template
+1020304,False,1020304,PLANTAS EN PRODUCCIÓN,account.data_account_type_fixed_assets,ec_chart_template
+1020305,False,1020305,(-) DEPRECIACIÓN ACUMULADA DE ACTIVOS BIOLÓGICOS,account.data_account_type_fixed_assets,ec_chart_template
+1020306,False,1020306,(-) DETERIORO ACUMULADO DE ACTIVOS BIOLÓGICOS,account.data_account_type_fixed_assets,ec_chart_template
+10204,False,10204,ACTIVO INTANGIBLE,account.data_account_type_vista,ec_chart_template
+1020401,False,1020401,PLUSVALÍAS,account.data_account_type_fixed_assets,ec_chart_template
+1020402,False,1020402,"MARCAS, PATENTES, DERECHOS DE LLAVE, CUOTAS PATRIMONIALES  Y OTROS SIMILARES",account.data_account_type_fixed_assets,ec_chart_template
+1020403,False,1020403,ACTIVOS DE EXPLORACION Y EXPLOTACION,account.data_account_type_fixed_assets,ec_chart_template
+1020404,False,1020404,(-) AMORTIZACIÓN ACUMULADA DE ACTIVO INTANGIBLE,account.data_account_type_fixed_assets,ec_chart_template
+1020405,False,1020405,(-) DETERIORO ACUMULADO DE ACTIVO INTANGIBLE,account.data_account_type_fixed_assets,ec_chart_template
+1020406,False,1020406,OTROS INTANGIBLES,account.data_account_type_fixed_assets,ec_chart_template
+10205,False,10205,ACTIVOS POR IMPUESTOS DIFERIDOS,account.data_account_type_fixed_assets,ec_chart_template
+10206,False,10206,ACTIVOS FINANCIEROS NO CORRIENTES,account.data_account_type_vista,ec_chart_template
+1020601,False,1020601,ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_fixed_assets,ec_chart_template
+1020602,False,1020602,(-) PROVISIÓN POR DETERIORO DE ACTIVOS FINANCIEROS MANTENIDOS HASTA EL VENCIMIENTO,account.data_account_type_fixed_assets,ec_chart_template
+1020603,False,1020603,DOCUMENTOS Y CUENTAS POR COBRAR,account.data_account_type_fixed_assets,ec_chart_template
+1020604,False,1020604,(-) PROVISIÓN CUENTAS INCOBRABLES DE ACTIVOS FINANCIEROS NO CORRIENTES,account.data_account_type_fixed_assets,ec_chart_template
+10207,False,10207,OTROS ACTIVOS NO CORRIENTES,account.data_account_type_vista,ec_chart_template
+1020701,False,1020701,INVERSIONES SUBSIDIARIAS,account.data_account_type_fixed_assets,ec_chart_template
+1020702,False,1020702,INVERSIONES ASOCIADAS,account.data_account_type_fixed_assets,ec_chart_template
+1020703,False,1020703,INVERSIONES NEGOCIOS CONJUNTOS,account.data_account_type_fixed_assets,ec_chart_template
+1020704,False,1020704,OTRAS INVERSIONES,account.data_account_type_fixed_assets,ec_chart_template
+1020705,False,1020705,(-) PROVISIÓN VALUACIÓN DE INVERSIONES,account.data_account_type_fixed_assets,ec_chart_template
+1020706,False,1020706,OTROS ACTIVOS NO CORRIENTES,account.data_account_type_fixed_assets,ec_chart_template
+2,False,2,PASIVO,account.data_account_type_vista,ec_chart_template
+201,False,201,PASIVO CORRIENTE,account.data_account_type_vista,ec_chart_template
+20101,False,20101,PASIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADO,account.data_account_type_current_liabilities,ec_chart_template
+20102,False,20102,PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIEROS,account.data_account_type_current_liabilities,ec_chart_template
+20103,False,20103,CUENTAS Y DOCUMENTOS POR PAGAR,account.data_account_type_vista,ec_chart_template
+2010301,True,2010301,CUENTAS Y DOCUMENTOS POR PAGAR PROVEEDORES LOCALES,account.data_account_type_payable,ec_chart_template
+2010302,True,2010302,CUENTAS Y DOCUMENTOS POR PAGAR PROVEEDORES DEL EXTERIOR,account.data_account_type_payable,ec_chart_template
+20104,False,20104,OBLIGACIONES CON INSTITUCIONES FINANCIERAS,account.data_account_type_vista,ec_chart_template
+2010401,False,2010401,OBLIGACIONES CON INSTITUCIONES FINANCIERAS LOCALES,account.data_account_type_current_liabilities,ec_chart_template
+2010402,False,2010402,OBLIGACIONES CON INSTITUCIONES FINANCIERAS DEL EXTERIOR,account.data_account_type_current_liabilities,ec_chart_template
+20105,False,20105,PROVISIONES,account.data_account_type_vista,ec_chart_template
+2010501,False,2010501,PROVISIONES LOCALES,account.data_account_type_current_liabilities,ec_chart_template
+2010502,False,2010502,PROVISIONES DEL EXTERIOR,account.data_account_type_current_liabilities,ec_chart_template
+20106,False,20106,PORCIÓN CORRIENTE DE OBLIGACIONES EMITIDAS,account.data_account_type_current_liabilities,ec_chart_template
+20107,False,20107,OTRAS OBLIGACIONES CORRIENTES,account.data_account_type_vista,ec_chart_template
+2010701,False,2010701,CON LA ADMINISTRACIÓN TRIBUTARIA,account.data_account_type_vista,ec_chart_template
+201070101,False,201070101,IVA VENTAS POR PAGAR,account.data_account_type_vista,ec_chart_template
+20107010101,False,20107010101,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%,account.data_account_type_current_liabilities,ec_chart_template
+20107010102,False,20107010102,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%,account.data_account_type_current_liabilities,ec_chart_template
+20107010103,False,20107010103,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template
+20107010104,False,20107010104,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template
+20107010105,False,20107010105,IVA VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template
+20107010106,False,20107010106,IVA VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO,account.data_account_type_current_liabilities,ec_chart_template
+20107010107,False,20107010107,EXPORTACIONES DE BIENES,account.data_account_type_current_liabilities,ec_chart_template
+20107010108,False,20107010108,EXPORTACIONES DE SERVICIOS,account.data_account_type_current_liabilities,ec_chart_template
+201070102,False,201070102,RETENCIONES IMPUESTO A LA RENTA POR PAGAR,account.data_account_type_vista,ec_chart_template
+20107010201,False,20107010201,RET. EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA,account.data_account_type_current_liabilities,ec_chart_template
+20107010202,False,20107010202,RET. HONORARIOS PROFESIONALES ,account.data_account_type_current_liabilities,ec_chart_template
+20107010203,False,20107010203,RET. PREDOMINA EL INTELECTO,account.data_account_type_current_liabilities,ec_chart_template
+20107010204,False,20107010204,RET. PREDOMINA MANO DE OBRA,account.data_account_type_current_liabilities,ec_chart_template
+20107010205,False,20107010205,RET. SERVICIOS UTILIZACIÓN O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE,account.data_account_type_current_liabilities,ec_chart_template
+20107010206,False,20107010206,RET. PUBLICIDAD Y COMUNICACIÓN,account.data_account_type_current_liabilities,ec_chart_template
+20107010207,False,20107010207,RET. TRANS. PRIVADO DE PASAJEROS O SERV. PÚBLICO O PRIVADO DE CARGA,account.data_account_type_current_liabilities,ec_chart_template
+20107010208,False,20107010208,RET. TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL,account.data_account_type_current_liabilities,ec_chart_template
+20107010209,False,20107010209,RET. ARRENDAMIENTO BIENES INMUEBLES,account.data_account_type_current_liabilities,ec_chart_template
+20107010210,False,20107010210,RET. SEGUROS Y REASEGUROS (PRIMAS Y CESIONES),account.data_account_type_current_liabilities,ec_chart_template
+20107010211,False,20107010211,RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCIÓN,account.data_account_type_current_liabilities,ec_chart_template
+20107010212,False,20107010212,RET. APLICABLES EL 1%,account.data_account_type_current_liabilities,ec_chart_template
+20107010213,False,20107010213,RET. APLICABLES EL 2%,account.data_account_type_current_liabilities,ec_chart_template
+20107010214,False,20107010214,RET. APLICABLES EL 8%,account.data_account_type_current_liabilities,ec_chart_template
+20107010215,False,20107010215,RET. APLICABLES OTROS PORCENTAJES,account.data_account_type_current_liabilities,ec_chart_template
+20107010216,False,20107010216,RETENCIONES A FAVOR DEL IMPUESTO A LA RENTA,account.data_account_type_current_liabilities,ec_chart_template
+20107010217,False,20107010217,RETENCIONES A FAVOR SERVICIOS,account.data_account_type_current_liabilities,ec_chart_template
+201070103,False,201070103,RETENCIONES IMPUESTO IVA POR PAGAR,account.data_account_type_vista,ec_chart_template
+20107010301,False,20107010301,RETENCION IVA POR PAGAR 10%,account.data_account_type_current_liabilities,ec_chart_template
+20107010302,False,20107010302,RETENCION IVA POR PAGAR 20%,account.data_account_type_current_liabilities,ec_chart_template
+20107010303,False,20107010303,RETENCION IVA POR PAGAR 30%,account.data_account_type_current_liabilities,ec_chart_template
+20107010304,False,20107010304,RETENCION IVA POR PAGAR 70%,account.data_account_type_current_liabilities,ec_chart_template
+20107010305,False,20107010305,RETENCION IVA POR PAGAR 100%,account.data_account_type_current_liabilities,ec_chart_template
+2010702,False,2010702,IMPUESTO A LA RENTA POR PAGAR DEL EJERCICIO,account.data_account_type_current_liabilities,ec_chart_template
+2010703,False,2010703,CON EL IESS,account.data_account_type_vista,ec_chart_template
+201070301,False,201070301,APORTE INDIVIDUAL POR PAGAR (9.45%),account.data_account_type_current_liabilities,ec_chart_template
+201070302,False,201070302,APORTE PATRONAL POR PAGAR (12.15%),account.data_account_type_current_liabilities,ec_chart_template
+201070303,False,201070303,PRESTAMOS QUIROGRAFARIOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070304,False,201070304,IECE POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070305,False,201070305,SECAP POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070306,False,201070306,PRESTAMOS HIPOTECARIOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070307,False,201070307,EXTENSION DE SALUD CONYUGES POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+2010704,False,2010704,POR BENEFICIOS DE LEY A EMPLEADOS,account.data_account_type_vista,ec_chart_template
+201070401,False,201070401,DECIMO TERCER SUELDO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070402,False,201070402,DECIMO CUARTO SUELDO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070403,False,201070403,FONDOS DE RESERVA POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+201070404,False,201070404,VACACIONES,account.data_account_type_current_liabilities,ec_chart_template
+201070405,False,201070405,DESAHUCIO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+2010705,False,2010705,PARTICIPACIÓN TRABAJADORES POR PAGAR DEL EJERCICIO,account.data_account_type_current_liabilities,ec_chart_template
+2010706,False,2010706,DIVIDENDOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template
+20108,False,20108,CUENTAS POR PAGAR DIVERSAS – RELACIONADAS,account.data_account_type_current_liabilities,ec_chart_template
+20109,False,20109,OTROS PASIVOS FINANCIEROS,account.data_account_type_current_liabilities,ec_chart_template
+20110,True,20110,ANTICIPOS DE CLIENTES,account.data_account_type_current_liabilities,ec_chart_template
+20111,False,20111,PASIVOS DIRECTAMENTE ASOCIADOS CON LOS ACTIVOS NO CORRIENTES Y OPERACIONES DISCONTINUADAS,account.data_account_type_current_liabilities,ec_chart_template
+20112,False,20112,PORCION CORRIENTE DE PROVISIONES POR BENEFICIOS A EMPLEADOS,account.data_account_type_vista,ec_chart_template
+2011201,False,2011201,JUBILACIÓN PATRONAL,account.data_account_type_current_liabilities,ec_chart_template
+2011202,False,2011202,OTROS BENEFICIOS A LARGO PLAZO PARA LOS EMPLEADOS,account.data_account_type_current_liabilities,ec_chart_template
+20113,False,20113,OTROS PASIVOS CORRIENTES,account.data_account_type_vista,ec_chart_template
+2011301,False,2011301,DEPOSITOS POR IDENTIFICAR,account.data_account_type_current_liabilities,ec_chart_template
+202,False,202,PASIVO NO CORRIENTE,account.data_account_type_vista,ec_chart_template
+20201,False,20201,PASIVOS POR CONTRATOS DE ARRENDAMIENTO FINANCIERO,account.data_account_type_non_current_liabilities,ec_chart_template
+20202,False,20202,CUENTAS Y DOCUMENTOS POR PAGAR,account.data_account_type_vista,ec_chart_template
+2020201,False,2020201,CUENTAS Y DOCUMENTOS POR PAGAR LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template
+2020202,False,2020202,CUENTAS Y DOCUMENTOS POR PAGAR DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template
+20203,False,20203,OBLIGACIONES CON INSTITUCIONES FINANCIERAS,account.data_account_type_vista,ec_chart_template
+2020301,False,2020301,OBLIGACIONES CON INSTITUCIONES FINANCIERAS LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template
+2020302,False,2020302,OBLIGACIONES CON INSTITUCIONES FINANCIERAS DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template
+20204,False,20204,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS,account.data_account_type_vista,ec_chart_template
+2020401,False,2020401,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS LOCALES,account.data_account_type_non_current_liabilities,ec_chart_template
+2020402,False,2020402,CUENTAS POR PAGAR DIVERSAS / RELACIONADAS DEL EXTERIOR,account.data_account_type_non_current_liabilities,ec_chart_template
+20205,False,20205,OBLIGACIONES EMITIDAS,account.data_account_type_non_current_liabilities,ec_chart_template
+20206,True,20206,ANTICIPOS DE CLIENTES,account.data_account_type_non_current_liabilities,ec_chart_template
+20207,False,20207,PROVISIONES POR BENEFICIOS A EMPLEADOS,account.data_account_type_vista,ec_chart_template
+2020701,False,2020701,JUBILACIÓN PATRONAL,account.data_account_type_non_current_liabilities,ec_chart_template
+2020702,False,2020702,OTROS BENEFICIOS NO CORRIENTES PARA LOS EMPLEADOS,account.data_account_type_non_current_liabilities,ec_chart_template
+20208,False,20208,OTRAS PROVISIONES,account.data_account_type_non_current_liabilities,ec_chart_template
+20209,False,20209,PASIVO DIFERIDO,account.data_account_type_vista,ec_chart_template
+2020901,False,2020901,INGRESOS DIFERIDOS,account.data_account_type_non_current_liabilities,ec_chart_template
+2020902,False,2020902,PASIVOS POR IMPUESTOS DIFERIDOS,account.data_account_type_non_current_liabilities,ec_chart_template
+20210,False,20210,OTROS PASIVOS NO CORRIENTES,account.data_account_type_non_current_liabilities,ec_chart_template
+3,False,3,PATRIMONIO NETO,account.data_account_type_vista,ec_chart_template
+301,False,301,CAPITAL,account.data_account_type_vista,ec_chart_template
+30101,False,30101,CAPITAL SUSCRITO o ASIGNADO,account.data_account_type_equity,ec_chart_template
+30102,False,30102,"(-) CAPITAL SUSCRITO NO PAGADO, ACCIONES EN TESORERÍA",account.data_account_type_equity,ec_chart_template
+302,False,302,APORTES DE SOCIOS O ACCIONISTAS PARA FUTURA CAPITALIZACIÓN,account.data_account_type_equity,ec_chart_template
+303,False,303,PRIMA POR EMISION PRIMARIA DE ACCIONES,account.data_account_type_equity,ec_chart_template
+304,False,304,RESERVAS,account.data_account_type_vista,ec_chart_template
+30401,False,30401,RESERVA LEGAL,account.data_account_type_equity,ec_chart_template
+30402,False,30402,RESERVAS FACULTATIVA Y ESTATUTARIA,account.data_account_type_equity,ec_chart_template
+305,False,305,OTROS RESULTADOS INTEGRALES,account.data_account_type_vista,ec_chart_template
+30501,False,30501,SUPERAVIT DE ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_equity,ec_chart_template
+30502,False,30502,"SUPERAVIT POR REVALUACIÓN DE PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_equity,ec_chart_template
+30503,False,30503,SUPERAVIT POR REVALUACION DE ACTIVOS INTANGIBLES,account.data_account_type_equity,ec_chart_template
+30504,False,30504,OTROS SUPERAVIT POR REVALUACION,account.data_account_type_equity,ec_chart_template
+306,False,306,RESULTADOS ACUMULADOS,account.data_account_type_vista,ec_chart_template
+30601,False,30601,GANACIAS ACUMULADAS,account.data_account_type_equity,ec_chart_template
+30602,False,30602,(-) PÉRDIDAS ACUMULADAS,account.data_account_type_equity,ec_chart_template
+30603,False,30603,RESULTADOS ACUMULADOS PROVENIENTES DE LA ADOPCIÓN POR PRIMERA VEZ DE LAS NIIF,account.data_account_type_equity,ec_chart_template
+30604,False,30604,RESERVA DE CAPITAL,account.data_account_type_equity,ec_chart_template
+30605,False,30605,RESERVA POR DONACIONES,account.data_account_type_equity,ec_chart_template
+30606,False,30606,RESERVA POR VALUACIÓN,account.data_account_type_equity,ec_chart_template
+30607,False,30607,SUPERÁVIT POR REVALUACIÓN DE INVERSIONES,account.data_account_type_equity,ec_chart_template
+307,False,307,RESULTADOS DEL EJERCICIO,account.data_account_type_vista,ec_chart_template
+30701,False,30701,GANANCIA NETA DEL PERIODO,account.data_account_type_equity,ec_chart_template
+30702,False,30702,(-) PÉRDIDA NETA DEL PERIODO,account.data_account_type_equity,ec_chart_template
+31,False,31,PARTICIPACIÓN NO CONTROLADORA,account.data_account_type_equity,ec_chart_template
+4,False,4,INGRESOS,account.data_account_type_vista,ec_chart_template
+41,False,41,INGRESOS DE ACTIVIDADES ORDINARIAS,account.data_account_type_vista,ec_chart_template
+4101,False,4101,VENTA DE BIENES,account.data_account_type_revenue,ec_chart_template
+4102,False,4102,PRESTACIÓN DE SERVICIOS,account.data_account_type_revenue,ec_chart_template
+4103,False,4103,CONTRATOS DE CONSTRUCCIÓN,account.data_account_type_revenue,ec_chart_template
+4104,False,4104,SUBVENCIONES DEL GOBIERNO,account.data_account_type_revenue,ec_chart_template
+4105,False,4105,REGALÍAS,account.data_account_type_revenue,ec_chart_template
+4106,False,4106,INTERESES,account.data_account_type_vista,ec_chart_template
+410601,False,410601,INTERESES GENERADOS POR VENTAS A CRÉDITO,account.data_account_type_revenue,ec_chart_template
+410602,False,410602,OTROS INTERESES GENERADOS,account.data_account_type_revenue,ec_chart_template
+4107,False,4107,DIVIDENDOS,account.data_account_type_revenue,ec_chart_template
+4108,False,4108,GANANCIA POR MEDICIÓN A VALOR RAZONABLE DE ACTIVOS BIOLÓGICOS,account.data_account_type_revenue,ec_chart_template
+4109,False,4109,OTROS INGRESOS DE ACTIVIDADES ORDINARIAS,account.data_account_type_revenue,ec_chart_template
+4110,False,4110,(-) DESCUENTO EN VENTAS,account.data_account_type_revenue,ec_chart_template
+4111,False,4111,(-) DEVOLUCIONES EN VENTAS,account.data_account_type_revenue,ec_chart_template
+4112,False,4112,(-) BONIFICACIÓN EN PRODUCTO,account.data_account_type_revenue,ec_chart_template
+4113,False,4113,(-) OTRAS REBAJAS COMERCIALES,account.data_account_type_revenue,ec_chart_template
+42,False,42,GANANCIA BRUTA,account.data_account_type_revenue,ec_chart_template
+43,False,43,OTROS INGRESOS,account.data_account_type_vista,ec_chart_template
+4301,False,4301,DIVIDENDOS,account.data_account_type_other_income,ec_chart_template
+4302,False,4302,INTERESES FINANCIEROS,account.data_account_type_other_income,ec_chart_template
+4303,False,4303,GANANCIA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS,account.data_account_type_other_income,ec_chart_template
+4304,False,4304,VALUACIÓN DE INSTRUMENTOS FINANCIEROS A VALOR RAZONABLE CON CAMBIO EN RESULTADOS,account.data_account_type_other_income,ec_chart_template
+4305,False,4305,OTRAS RENTAS,account.data_account_type_vista,ec_chart_template
+430501,False,430501,INTERESES GANADOS,account.data_account_type_other_income,ec_chart_template
+430502,False,430502,PROMOCIONES DE PROVEEDORES,account.data_account_type_other_income,ec_chart_template
+430503,False,430503,GANANCIAS POR REDONDEO,account.data_account_type_other_income,ec_chart_template
+430504,False,430504,MULTAS EMPLEADOS,account.data_account_type_other_income,ec_chart_template
+430505,False,430505,OTROS INGRESOS GENERALES,account.data_account_type_other_income,ec_chart_template
+430506,False,430506,INGRESOS DIFERIDOS,account.data_account_type_other_income,ec_chart_template
+5,False,5,COSTOS Y GASTOS,account.data_account_type_vista,ec_chart_template
+51,False,51,COSTO DE VENTAS Y PRODUCCIÓN,account.data_account_type_vista,ec_chart_template
+5101,False,5101,MATERIALES UTILIZADOS O PRODUCTOS VENDIDOS,account.data_account_type_vista,ec_chart_template
+510101,False,510101,(+) INVENTARIO INICIAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template
+510102,False,510102,(+) COMPRAS NETAS LOCALES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template
+510103,False,510103,(+) IMPORTACIONES DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template
+510104,False,510104,(-) INVENTARIO FINAL DE BIENES NO PRODUCIDOS POR LA COMPAÑÍA,account.data_account_type_direct_costs,ec_chart_template
+510105,False,510105,(+) INVENTARIO INICIAL DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template
+510106,False,510106,(+) COMPRAS NETAS LOCALES DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template
+510107,False,510107,(+) IMPORTACIONES DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template
+510108,False,510108,(-) INVENTARIO FINAL DE MATERIA PRIMA,account.data_account_type_direct_costs,ec_chart_template
+510109,False,510109,(+) INVENTARIO INICIAL DE PRODUCTOS EN PROCESO,account.data_account_type_direct_costs,ec_chart_template
+510110,False,510110,(-) INVENTARIO FINAL DE PRODUCTOS EN PROCESO,account.data_account_type_direct_costs,ec_chart_template
+510111,False,510111,(+) INVENTARIO INICIAL PRODUCTOS TERMINADOS,account.data_account_type_direct_costs,ec_chart_template
+510112,False,510112,(-) INVENTARIO FINAL DE PRODUCTOS TERMINADOS,account.data_account_type_direct_costs,ec_chart_template
+5102,False,5102,(+) MANO DE OBRA DIRECTA,account.data_account_type_vista,ec_chart_template
+510201,False,510201,SUELDOS Y BENEFICIOS SOCIALES,account.data_account_type_direct_costs,ec_chart_template
+510202,False,510202,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_direct_costs,ec_chart_template
+5103,False,5103,(+) MANO DE OBRA INDIRECTA,account.data_account_type_vista,ec_chart_template
+510301,False,510301,SUELDOS Y BENEFICIOS SOCIALES,account.data_account_type_vista,ec_chart_template
+51030101,False,51030101,SUELDO BÁSICO,account.data_account_type_direct_costs,ec_chart_template
+51030102,False,51030102,DECIMO TERCER SUELDO,account.data_account_type_direct_costs,ec_chart_template
+51030103,False,51030103,DECIMO CUARTO SUELDO,account.data_account_type_direct_costs,ec_chart_template
+51030104,False,51030104,FONDOS DE RESERVA,account.data_account_type_direct_costs,ec_chart_template
+51030105,False,51030105,VACACIONES,account.data_account_type_direct_costs,ec_chart_template
+51030106,False,51030106,DESAHUCIO,account.data_account_type_direct_costs,ec_chart_template
+510302,False,510302,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_direct_costs,ec_chart_template
+5104,False,5104,(+) OTROS COSTOS INDIRECTOS DE FABRICACION,account.data_account_type_vista,ec_chart_template
+510401,False,510401,"DEPRECIACIÓN PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_direct_costs,ec_chart_template
+510402,False,510402,DETERIORO O PÉRDIDAS DE ACTIVOS BIOLÓGICOS,account.data_account_type_direct_costs,ec_chart_template
+510403,False,510403,"DETERIORO DE PROPIEDAD, PLANTA Y EQUIPO",account.data_account_type_direct_costs,ec_chart_template
+510404,False,510404,EFECTO VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_direct_costs,ec_chart_template
+510405,False,510405,GASTO POR GARANTÍAS EN VENTA DE PRODUCTOS O SERVICIOS,account.data_account_type_direct_costs,ec_chart_template
+510406,False,510406,MANTENIMIENTO Y REPARACIONES,account.data_account_type_direct_costs,ec_chart_template
+510407,False,510407,SUMINISTROS MATERIALES Y REPUESTOS,account.data_account_type_vista,ec_chart_template
+51040701,False,51040701,SUMINISTROS DE OFICINA,account.data_account_type_direct_costs,ec_chart_template
+51040702,False,51040702,SUMINISTROS DE LIMPIEZA,account.data_account_type_direct_costs,ec_chart_template
+51040703,False,51040703,REPUESTOS DE VEHÍCULOS,account.data_account_type_direct_costs,ec_chart_template
+510408,False,510408,OTROS COSTOS DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template
+51040801,False,51040801,COSTO DE VENTAS,account.data_account_type_expenses,ec_chart_template
+52,False,52,GASTOS,account.data_account_type_vista,ec_chart_template
+5201,False,5201,GASTOS DE VENTA,account.data_account_type_vista,ec_chart_template
+520101,False,520101,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",account.data_account_type_vista,ec_chart_template
+52010101,False,52010101,SUELDOS Y SALARIOS,account.data_account_type_expenses,ec_chart_template
+52010102,False,52010102,HORAS EXTRAS,account.data_account_type_expenses,ec_chart_template
+52010103,False,52010103,COMISIONES,account.data_account_type_expenses,ec_chart_template
+52010104,False,52010104,BONIFICACIONES,account.data_account_type_expenses,ec_chart_template
+520102,False,520102,APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva),account.data_account_type_vista,ec_chart_template
+52010201,False,52010201,APORTE PATRONAL,account.data_account_type_expenses,ec_chart_template
+52010202,False,52010202,IECE,account.data_account_type_expenses,ec_chart_template
+52010203,False,52010203,SECAP,account.data_account_type_expenses,ec_chart_template
+520103,False,520103,BENEFICIOS SOCIALES E INDEMNIZACIONES,account.data_account_type_vista,ec_chart_template
+52010301,False,52010301,DECIMO TERCER SUELDO,account.data_account_type_expenses,ec_chart_template
+52010302,False,52010302,DECIMO CUARTO SUELDO,account.data_account_type_expenses,ec_chart_template
+52010303,False,52010303,FONDOS DE RESERVA,account.data_account_type_expenses,ec_chart_template
+52010304,False,52010304,VACACIONES,account.data_account_type_expenses,ec_chart_template
+52010305,False,52010305,DESAHUCIO,account.data_account_type_expenses,ec_chart_template
+520104,False,520104,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_expenses,ec_chart_template
+520105,False,520105,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",account.data_account_type_expenses,ec_chart_template
+520106,False,520106,REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS,account.data_account_type_expenses,ec_chart_template
+520107,False,520107,HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES,account.data_account_type_expenses,ec_chart_template
+520108,False,520108,MANTENIMIENTO Y REPARACIONES,account.data_account_type_vista,ec_chart_template
+52010801,False,52010801,MANTENIMIENTO DE LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template
+52010802,False,52010802,MANTENIMIENTO DE VEHÍCULOS,account.data_account_type_expenses,ec_chart_template
+520109,False,520109,ARRENDAMIENTO OPERATIVO,account.data_account_type_vista,ec_chart_template
+52010901,False,52010901,ARRIENDO LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template
+520110,False,520110,COMISIONES,account.data_account_type_expenses,ec_chart_template
+520111,False,520111,PROMOCIÓN Y PUBLICIDAD,account.data_account_type_expenses,ec_chart_template
+520112,False,520112,COMBUSTIBLES,account.data_account_type_expenses,ec_chart_template
+520113,False,520113,LUBRICANTES,account.data_account_type_expenses,ec_chart_template
+520114,False,520114,SEGUROS Y REASEGUROS (primas y cesiones),account.data_account_type_expenses,ec_chart_template
+520115,False,520115,TRANSPORTE,account.data_account_type_expenses,ec_chart_template
+520116,False,520116,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",account.data_account_type_expenses,ec_chart_template
+520117,False,520117,GASTOS DE VIAJE,account.data_account_type_expenses,ec_chart_template
+520118,False,520118,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",account.data_account_type_vista,ec_chart_template
+52011801,False,52011801,AGUA,account.data_account_type_expenses,ec_chart_template
+52011802,False,52011802,ENERGÍA ELÉCTRICA,account.data_account_type_expenses,ec_chart_template
+52011803,False,52011803,TELECOMUNICACIONES,account.data_account_type_vista,ec_chart_template
+5201180301,False,5201180301,TELÉFONO,account.data_account_type_expenses,ec_chart_template
+5201180302,False,5201180302,PLAN CELULAR,account.data_account_type_expenses,ec_chart_template
+5201180303,False,5201180303,INTERNET,account.data_account_type_expenses,ec_chart_template
+5201180304,False,5201180304,PLAN DE TRANSMISIÓN DE DATOS,account.data_account_type_expenses,ec_chart_template
+520119,False,520119,NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES,account.data_account_type_expenses,ec_chart_template
+520121,False,520121,DEPRECIACIONES,account.data_account_type_vista,ec_chart_template
+52012101,False,52012101,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template
+52012102,False,52012102,PROPIEDADES DE INVERSIÓN,account.data_account_type_depreciation,ec_chart_template
+520122,False,520122,AMORTIZACIONES,account.data_account_type_vista,ec_chart_template
+52012201,False,52012201,INTANGIBLES,account.data_account_type_depreciation,ec_chart_template
+52012202,False,52012202,OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template
+520123,False,520123,GASTO DETERIORO,account.data_account_type_vista,ec_chart_template
+52012301,False,52012301,"PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template
+52012306,False,52012306,OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template
+520124,False,520124,GASTOS POR CANTIDADES ANORMALES DE UTILIZACIÓN EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template
+52012401,False,52012401,MANO DE OBRA,account.data_account_type_expenses,ec_chart_template
+52012402,False,52012402,MATERIALES,account.data_account_type_expenses,ec_chart_template
+52012403,False,52012403,COSTOS DE PRODUCCIÓN,account.data_account_type_expenses,ec_chart_template
+520125,False,520125,GASTO POR REESTRUCTURACIÓN,account.data_account_type_expenses,ec_chart_template
+520126,False,520126,VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_expenses,ec_chart_template
+520128,False,520128,OTROS GASTOS,account.data_account_type_expenses,ec_chart_template
+5202,False,5202,GASTOS ADMINISTRATIVOS,account.data_account_type_vista,ec_chart_template
+520201,False,520201,"SUELDOS, SALARIOS Y DEMÁS REMUNERACIONES",account.data_account_type_vista,ec_chart_template
+52020101,False,52020101,SUELDOS Y SALARIOS,account.data_account_type_expenses,ec_chart_template
+52020102,False,52020102,HORAS EXTRAS,account.data_account_type_expenses,ec_chart_template
+52020103,False,52020103,COMISIONES,account.data_account_type_expenses,ec_chart_template
+52020104,False,52020104,BONIFICACIONES,account.data_account_type_expenses,ec_chart_template
+520202,False,520202,APORTES A LA SEGURIDAD SOCIAL (incluido fondo de reserva),account.data_account_type_vista,ec_chart_template
+52020201,False,52020201,APORTE PATRONAL,account.data_account_type_expenses,ec_chart_template
+52020202,False,52020202,IECE,account.data_account_type_expenses,ec_chart_template
+52020203,False,52020203,SECAP,account.data_account_type_expenses,ec_chart_template
+520203,False,520203,BENEFICIOS SOCIALES E INDEMNIZACIONES,account.data_account_type_vista,ec_chart_template
+52020301,False,52020301,DECIMO TERCER SUELDO,account.data_account_type_expenses,ec_chart_template
+52020302,False,52020302,DECIMO CUARTO SUELDO,account.data_account_type_expenses,ec_chart_template
+52020303,False,52020303,FONDOS DE RESERVA,account.data_account_type_expenses,ec_chart_template
+52020304,False,52020304,VACACIONES,account.data_account_type_expenses,ec_chart_template
+52020305,False,52020305,DESAHUCIO,account.data_account_type_expenses,ec_chart_template
+520204,False,520204,GASTO PLANES DE BENEFICIOS A EMPLEADOS,account.data_account_type_expenses,ec_chart_template
+520205,False,520205,"HONORARIOS, COMISIONES Y DIETAS A PERSONAS NATURALES",account.data_account_type_vista,ec_chart_template
+52020501,False,52020501,HONORARIOS PROFESIONALES,account.data_account_type_expenses,ec_chart_template
+520206,False,520206,REMUNERACIONES A OTROS TRABAJADORES AUTÓNOMOS,account.data_account_type_expenses,ec_chart_template
+520207,False,520207,HONORARIOS A EXTRANJEROS POR SERVICIOS OCASIONALES,account.data_account_type_expenses,ec_chart_template
+520208,False,520208,MANTENIMIENTO Y REPARACIONES,account.data_account_type_vista,ec_chart_template
+52020801,False,52020801,MANTENIMIENTO DE LOCAL COMERCIAL,account.data_account_type_expenses,ec_chart_template
+52020802,False,52020802,MANTENIMIENTO DE VEHÍCULOS,account.data_account_type_expenses,ec_chart_template
+520209,False,520209,ARRENDAMIENTO OPERATIVO,account.data_account_type_expenses,ec_chart_template
+520210,False,520210,COMISIONES,account.data_account_type_expenses,ec_chart_template
+520212,False,520212,COMBUSTIBLES,account.data_account_type_expenses,ec_chart_template
+520213,False,520213,LUBRICANTES,account.data_account_type_expenses,ec_chart_template
+520214,False,520214,SEGUROS Y REASEGUROS (primas y cesiones),account.data_account_type_expenses,ec_chart_template
+520215,False,520215,TRANSPORTE,account.data_account_type_expenses,ec_chart_template
+520216,False,520216,"GASTOS DE GESTIÓN (agasajos a accionistas, trabajadores y clientes)",account.data_account_type_expenses,ec_chart_template
+520217,False,520217,GASTOS DE VIAJE,account.data_account_type_expenses,ec_chart_template
+520218,False,520218,"AGUA, ENERGÍA, LUZ Y TELECOMUNICACIONES",account.data_account_type_vista,ec_chart_template
+52021801,False,52021801,AGUA,account.data_account_type_expenses,ec_chart_template
+52021802,False,52021802,ENERGÍA ELÉCTRICA,account.data_account_type_expenses,ec_chart_template
+52021803,False,52021803,TELECOMUNICACIONES,account.data_account_type_vista,ec_chart_template
+5202180301,False,5202180301,TELÉFONO,account.data_account_type_expenses,ec_chart_template
+5202180302,False,5202180302,PLAN CELULAR,account.data_account_type_expenses,ec_chart_template
+5202180303,False,5202180303,INTERNET,account.data_account_type_expenses,ec_chart_template
+5202180304,False,5202180304,PLAN DE TRANSMISIÓN DE DATOS,account.data_account_type_expenses,ec_chart_template
+520219,False,520219,NOTARIOS Y REGISTRADORES DE LA PROPIEDAD O MERCANTILES,account.data_account_type_expenses,ec_chart_template
+520220,False,520220,"IMPUESTOS, CONTRIBUCIONES Y OTROS",account.data_account_type_vista,ec_chart_template
+52022001,False,52022001,IMPUESTOS CONTRIBUCIONES Y MULTAS,account.data_account_type_expenses,ec_chart_template
+52022003,False,52022003,IMPUESTO A LA RENTA,account.data_account_type_expenses,ec_chart_template
+52022004,False,52022004,IMPUESTO PATENTE MUNICIPAL,account.data_account_type_expenses,ec_chart_template
+52022005,False,52022005,IMPUESTO 1.5 POR MIL ACTIVOS TOTALES,account.data_account_type_expenses,ec_chart_template
+52022006,False,52022006,IMPUESTO FISCAL MATRICULACION,account.data_account_type_expenses,ec_chart_template
+52022007,False,52022007,IMPUESTO AL RODAJE,account.data_account_type_expenses,ec_chart_template
+52022008,False,52022008,TASA DE LA DIRECCION TRANSITO,account.data_account_type_expenses,ec_chart_template
+52022009,False,52022009,PERMISO CUERPO DE BOMBEROS,account.data_account_type_expenses,ec_chart_template
+52022010,False,52022010,MULTA PRESTAMOS,account.data_account_type_expenses,ec_chart_template
+52022011,False,52022011,CONTRIBUCIONES,account.data_account_type_expenses,ec_chart_template
+52022012,False,52022012,CONTRIBUCION SUPERINTENDENCIA DE COMPAÑIAS,account.data_account_type_expenses,ec_chart_template
+52022013,False,52022013,CONTRIBUCION CAMARA DE COMERCIO,account.data_account_type_expenses,ec_chart_template
+52022014,False,52022014,CONTRIBUCION SOLCA 0.5%,account.data_account_type_expenses,ec_chart_template
+52022016,False,52022016,MULTAS FISCALES,account.data_account_type_expenses,ec_chart_template
+52022017,False,52022017,MULTAS MUNICIPALES,account.data_account_type_expenses,ec_chart_template
+52022018,False,52022018,MULTAS PATRONALES,account.data_account_type_expenses,ec_chart_template
+520221,False,520221,DEPRECIACIONES,account.data_account_type_vista,ec_chart_template
+52022101,False,52022101,"DEPRECIACIONES PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template
+52022102,False,52022102,DEPRECIACIONES PROPIEDADES DE INVERSIÓN,account.data_account_type_depreciation,ec_chart_template
+520222,False,520222,AMORTIZACIONES,account.data_account_type_vista,ec_chart_template
+52022201,False,52022201,AMORTIZACIONES INTANGIBLES,account.data_account_type_expenses,ec_chart_template
+52022202,False,52022202,AMORTIZACIONES OTROS ACTIVOS,account.data_account_type_expenses,ec_chart_template
+520223,False,520223,GASTO DETERIORO,account.data_account_type_vista,ec_chart_template
+52022301,False,52022301,"GASTO DETERIORO PROPIEDADES, PLANTA Y EQUIPO",account.data_account_type_depreciation,ec_chart_template
+52022302,False,52022302,GASTO DETERIORO INVENTARIOS,account.data_account_type_depreciation,ec_chart_template
+52022303,False,52022303,GASTO DETERIORO INSTRUMENTOS FINANCIEROS,account.data_account_type_depreciation,ec_chart_template
+52022304,False,52022304,GASTO DETERIORO INTANGIBLES,account.data_account_type_depreciation,ec_chart_template
+52022305,False,52022305,GASTO DETERIORO CUENTAS POR COBRAR,account.data_account_type_depreciation,ec_chart_template
+52022306,False,52022306,GASTO DETERIORO OTROS ACTIVOS,account.data_account_type_depreciation,ec_chart_template
+520224,False,520224,GASTOS POR CANTIDADES ANORMALES DE UTILIZACION EN EL PROCESO DE PRODUCCIÓN,account.data_account_type_vista,ec_chart_template
+52022401,False,52022401,MANO DE OBRA,account.data_account_type_expenses,ec_chart_template
+52022402,False,52022402,MATERIALES,account.data_account_type_expenses,ec_chart_template
+52022403,False,52022403,COSTOS DE PRODUCCIÓN,account.data_account_type_expenses,ec_chart_template
+520225,False,520225,GASTO POR REESTRUCTURACIÓN,account.data_account_type_expenses,ec_chart_template
+520226,False,520226,VALOR NETO DE REALIZACIÓN DE INVENTARIOS,account.data_account_type_expenses,ec_chart_template
+520227,False,520227,GASTO IMPUESTO A LA RENTA (ACTIVOS Y PASIVOS DIFERIDOS),account.data_account_type_expenses,ec_chart_template
+520228,False,520228,OTROS GASTOS,account.data_account_type_expenses,ec_chart_template
+5203,False,5203,GASTOS FINANCIEROS,account.data_account_type_vista,ec_chart_template
+520301,False,520301,INTERESES,account.data_account_type_expenses,ec_chart_template
+520302,False,520302,COMISIONES,account.data_account_type_expenses,ec_chart_template
+520303,False,520303,GASTOS DE FINANCIAMIENTO DE ACTIVOS,account.data_account_type_expenses,ec_chart_template
+520304,False,520304,DIFERENCIA EN CAMBIO,account.data_account_type_expenses,ec_chart_template
+520305,False,520305,OTROS GASTOS FINANCIEROS,account.data_account_type_expenses,ec_chart_template
+5204,False,5204,OTROS GASTOS,account.data_account_type_vista,ec_chart_template
+520401,False,520401,PERDIDA EN INVERSIONES EN ASOCIADAS / SUBSIDIARIAS Y OTRAS,account.data_account_type_expenses,ec_chart_template
+520402,False,520402,OTROS,account.data_account_type_vista,ec_chart_template
+52040201,False,52040201,DESADUANIZACION DE MERCADERIAS,account.data_account_type_expenses,ec_chart_template
+52040202,False,52040202,SALVAGUARDIAS EN IMPORTACIONES,account.data_account_type_expenses,ec_chart_template
+52040203,False,52040203,FLETES DE MERCADERIAS,account.data_account_type_expenses,ec_chart_template
+52040204,False,52040204,IMPUESTOS Y COMISIONES POR GIROS AL EXTERIOR,account.data_account_type_expenses,ec_chart_template
+52040205,False,52040205,COSTO DE VENTAS DIFERIDO,account.data_account_type_expenses,ec_chart_template
+52040206,False,52040206,UNIFORMES,account.data_account_type_expenses,ec_chart_template
+52040207,False,52040207,ALIMENTOS Y REFIGERIOS,account.data_account_type_expenses,ec_chart_template
+52040208,False,52040208,GASTOS MEDICOS SEGURIDAD Y SALUD,account.data_account_type_expenses,ec_chart_template
+52040209,False,52040209,SERVICIO DE MONITOREO Y SEGURIDAD,account.data_account_type_expenses,ec_chart_template
+52040210,False,52040210,CORREOS Y  CURIERS,account.data_account_type_expenses,ec_chart_template
+52040211,False,52040211,SERVICIOS DE POS TARJETAS DE CREDITO,account.data_account_type_expenses,ec_chart_template
+52040212,False,52040212,GARAGE,account.data_account_type_expenses,ec_chart_template
+52040213,False,52040213,SERVICIO CUSTODIA DOC Y FACT EN LINEA,account.data_account_type_expenses,ec_chart_template
+52040214,False,52040214,SERVICIO DE CORREO ELECTRONICO,account.data_account_type_expenses,ec_chart_template
+52040215,False,52040215,COMPRA Y RENOVACIÓN DE CERTIFICADO DIGITAL,account.data_account_type_expenses,ec_chart_template
+52040216,False,52040216,COMPRA Y RENOVACIÓN DE HOSTING,account.data_account_type_expenses,ec_chart_template
+52040217,False,52040217,COMPRA Y RENOVACIÓN DE DOMINIO,account.data_account_type_expenses,ec_chart_template
