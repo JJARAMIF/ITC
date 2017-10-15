@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!-- Account Types -->
+        <record model="account.account.type" id="account.data_account_type_capital">
+            <field name="name">Capital</field>
+            <field name="type">other</field>
+            <field name="include_initial_balance" eval="True"/>
+        </record>
+        <record model="account.account.type" id="account.data_account_type_stock">
+            <field name="name">Inventario</field>
+            <field name="type">other</field>
+            <field name="include_initial_balance" eval="True"/>
+        </record>
+        <record model="account.account.type" id="account.data_account_type_vista">
+            <field name="name">Vista</field>
+            <field name="type">other</field>
+            <field name="include_initial_balance" eval="False"/>
+        </record>		
+		
+</odoo>
