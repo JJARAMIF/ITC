@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# 'data/account.account.template.csv',	
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2017 ITC Tecnologia
@@ -24,6 +23,7 @@ Plan de Cuentas y Localizacion Ecuador.
     ],
     'data': [
 	    'data/l10n_ec_chart.xml',
+		'data/account.account.template.csv',	
 		'data/account_chart_template.yml',
 		],
 }
