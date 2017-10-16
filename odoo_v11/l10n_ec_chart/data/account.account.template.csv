@@ -1,2 +1,3 @@
-name,code,user_type_id/id,tag_ids/id,reconcile,chart_template_id:id
-ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS,1010201,account.data_account_type_current_assets,,False,ec_chart_template
+id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id,tag_ids/id,note
+1010201,False,False,1010201,ACTIVOS FINANCIEROS A VALOR RAZONABLE CON CAMBIOS EN RESULTADOS,account.data_account_type_current_assets,ec_chart_template,,
+1010202,False,False,1010202,ACTIVOS FINANCIEROS DISPONIBLES PARA LA VENTA,account.data_account_type_current_assets,ec_chart_template,,
