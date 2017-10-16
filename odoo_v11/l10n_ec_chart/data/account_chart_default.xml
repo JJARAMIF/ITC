@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-		<!-- Cuentas por Defecto
+		<!-- Cuentas por Defecto -->
 		<record model="account.chart.template" id="ec_chart_template">
 		  <field name="property_account_expense_categ_id" ref="520226"/>
 		  <field name="property_account_income_categ_id" ref="4109"/>  
@@ -13,5 +13,5 @@
 		  <field name="property_stock_account_output_categ_id" ref="1010312"/>
 		  <field name="property_stock_valuation_account_id" ref="1010312"/>	  
 		</record>  
-		-->
+		
 </odoo>

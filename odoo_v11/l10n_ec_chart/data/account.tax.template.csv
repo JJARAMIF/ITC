@@ -1,15 +1,15 @@
 id,description,name,account_id/id,refund_account_id/id,amount_type,amount,type_tax_use,tax_group_id/id,tag_ids/id,price_include,active,chart_template_id:id,sequence
-account_tax302,302,RET. EN RELACIÓN DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA,20107010201,20107010201,percent,0,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,302
+account_tax302,302,RET. EN RELACION DE DEPENDENCIA QUE SUPERA O NO LA BASE DESGRAVADA,20107010201,20107010201,percent,0,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,302
 account_tax303,303,RET. HONORARIOS PROFESIONALES ,20107010202,20107010202,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,303
 account_tax304,304,RET. PREDOMINA EL INTELECTO,20107010203,20107010203,percent,-8,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,304
 account_tax307,307,RET. PREDOMINA MANO DE OBRA,20107010204,20107010204,percent,-2,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,307
-account_tax308,308,RET. SERVICIOS UTILIZACIÓN O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE,20107010205,20107010205,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,308
-account_tax309,309,RET. PUBLICIDAD Y COMUNICACIÓN,20107010206,20107010206,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,309
-account_tax310,310,RET. TRANS. PRIVADO DE PASAJEROS O SERV. PÚBLICO O PRIVADO DE CARGA,20107010207,20107010207,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,310
+account_tax308,308,RET. SERVICIOS UTILIZACION O APROVECHAMIENTO DE LA IMAGEN O RENOMBRE,20107010205,20107010205,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,308
+account_tax309,309,RET. PUBLICIDAD Y COMUNICACION,20107010206,20107010206,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,309
+account_tax310,310,RET. TRANS. PRIVADO DE PASAJEROS O SERV. PUBLICO O PRIVADO DE CARGA,20107010207,20107010207,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,310
 account_tax312,312,RET. TRANSFERENCIA DE BIENES MUEBLES DE NATURALEZA CORPORAL,20107010208,20107010208,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,312
 account_tax320,320,RET. ARRENDAMIENTO BIENES INMUEBLES,20107010209,20107010209,percent,-8,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,320
 account_tax322,322,RET. SEGUROS Y REASEGUROS (PRIMAS Y CESIONES),20107010210,20107010210,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,322
-account_tax332,332,RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCIÓN,20107010211,20107010211,percent,0,purchase,no_ret_ir,tax_tag_no_ret_ir,False,True,ec_chart_template,332
+account_tax332,332,RET. PAGOS DE BIENES O SERVICIOS NO SUJETOS A RETENCION,20107010211,20107010211,percent,0,purchase,no_ret_ir,tax_tag_no_ret_ir,False,True,ec_chart_template,332
 account_tax343,343,RET. APLICABLES EL 1%,20107010212,20107010212,percent,-1,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,343
 account_tax344,344,RET. APLICABLES EL 2%,20107010213,20107010213,percent,-2,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,344
 account_tax345,345,RET. APLICABLES EL 8%,20107010214,20107010214,percent,-8,purchase,ret_ir,tax_tag_ret_ir,False,True,ec_chart_template,345
