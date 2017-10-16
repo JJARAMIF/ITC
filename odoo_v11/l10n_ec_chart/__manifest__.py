@@ -23,6 +23,7 @@ Plan de Cuentas y Localizacion Ecuador.
     ],
     'data': [
 	    'data/l10n_ec_chart.xml',
+		'data/account.account.tag.csv',
 		'data/account.account.template.csv',
 		'data/account_chart_template.yml',
 		],
