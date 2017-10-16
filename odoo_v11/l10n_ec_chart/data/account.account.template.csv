@@ -1,4 +1,4 @@
-id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id,tag_ids/id,note
+﻿id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id,tag_ids/id,note
 1,False,True,1,ACTIVO,account.data_account_type_vista,ec_chart_template,,
 101,False,True,101,ACTIVO CORRIENTE,account.data_account_type_vista,ec_chart_template,,
 10101,False,True,10101,EFECTIVO Y EQUIVALENTES AL EFECTIVO,account.data_account_type_vista,ec_chart_template,,
@@ -197,7 +197,7 @@ id,reconcile,nocreate,code,name,user_type_id/id,chart_template_id:id,tag_ids/id,
 201070405,False,False,201070405,DESAHUCIO POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
 2010705,False,False,2010705,PARTICIPACION TRABAJADORES POR PAGAR DEL EJERCICIO,account.data_account_type_current_liabilities,ec_chart_template,,
 2010706,False,False,2010706,DIVIDENDOS POR PAGAR,account.data_account_type_current_liabilities,ec_chart_template,,
-20108,False,False,20108,CUENTAS POR PAGAR DIVERSAS � RELACIONADAS,account.data_account_type_current_liabilities,ec_chart_template,,
+20108,False,False,20108,CUENTAS POR PAGAR DIVERSAS – RELACIONADAS,account.data_account_type_current_liabilities,ec_chart_template,,
 20109,False,False,20109,OTROS PASIVOS FINANCIEROS,account.data_account_type_current_liabilities,ec_chart_template,,
 20110,True,True,20110,ANTICIPOS DE CLIENTES,account.data_account_type_current_liabilities,ec_chart_template,,
 20111,False,False,20111,PASIVOS DIRECTAMENTE ASOCIADOS CON LOS ACTIVOS NO CORRIENTES Y OPERACIONES DISCONTINUADAS,account.data_account_type_current_liabilities,ec_chart_template,,
